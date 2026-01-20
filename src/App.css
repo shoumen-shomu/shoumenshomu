@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-hebbo: "Heebo", sans-serif;
+  --font-rubik: "Rubik", sans-serif;
+
+}
