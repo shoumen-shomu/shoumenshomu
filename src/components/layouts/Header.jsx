@@ -8,7 +8,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 const Header = () => {
   return (
-    <div className="bg-[#181A1D]">
+    <div className="bg-[#181A1D] fixed w-full top-0 left-0">
       <Container>
         <div className="py-5">
           <Flex className={"justify-between"}>
