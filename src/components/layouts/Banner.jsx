@@ -41,30 +41,42 @@ const Banner = () => {
                   </p>
                   {/* Social Links Start */}
                   <div className="flex items-center gap-x-2.5">
-                    <Link>
-                      {" "}
+                    <a
+                      href="https://github.com/shoumen-shomu" // 1. Put your actual link here
+                      target="_blank" // 2. Opens in a new tab
+                      rel="noopener noreferrer" // 3. Security safety for React
+                    >
                       <div className="text-[20px] text-[#EE5F38] w-10 h-10 border border-[#EE5F38] rounded-[50%] flex justify-center items-center hover:text-white hover:bg-[#EE5F38] duration-500">
                         <FaGithub />
                       </div>
-                    </Link>
-                    <Link>
-                      {" "}
+                    </a>
+                    <a
+                      href="https://www.facebook.com/shoumenshomudev/" // 1. Put your actual link here
+                      target="_blank" // 2. Opens in a new tab
+                      rel="noopener noreferrer" // 3. Security safety for React
+                    >
                       <div className="text-[20px] text-[#EE5F38] w-10 h-10 border border-[#EE5F38] rounded-[50%] flex justify-center items-center hover:text-white hover:bg-[#EE5F38] duration-500">
                         <FaFacebookF />
                       </div>
-                    </Link>
-                    <Link>
-                      {" "}
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/shoumenshomu/" // 1. Put your actual link here
+                      target="_blank" // 2. Opens in a new tab
+                      rel="noopener noreferrer" // 3. Security safety for React
+                    >
                       <div className="text-[20px] text-[#EE5F38] w-10 h-10 border border-[#EE5F38] rounded-[50%] flex justify-center items-center hover:text-white hover:bg-[#EE5F38] duration-500">
                         <FaLinkedin />
                       </div>
-                    </Link>
-                    <Link>
-                      {" "}
+                    </a>
+                    <a
+                      href="https://x.com/Shoumenshomudev" // 1. Put your actual link here
+                      target="_blank" // 2. Opens in a new tab
+                      rel="noopener noreferrer" // 3. Security safety for React
+                    >
                       <div className="text-[20px] text-[#EE5F38] w-10 h-10 border border-[#EE5F38] rounded-[50%] flex justify-center items-center hover:text-white hover:bg-[#EE5F38] duration-500">
                         <FaXTwitter />
                       </div>
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 {/* Social Links End */}
