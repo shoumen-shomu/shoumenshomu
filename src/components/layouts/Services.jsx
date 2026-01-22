@@ -11,7 +11,7 @@ import sixthcompo from "/src/assets/service6thCom.png";
 
 const Services = () => {
   return (
-    <div className="py-[90px] bg-[#212428]">
+    <div className="py-[90px] bg-[#212428] border-b border-b-[#181A1D]">
       <Container>
         <Flex className={"justify-between mb-[55px]"}>
           <div className="">
@@ -166,6 +166,7 @@ const Services = () => {
         </div>
       </Container>
     </div>
+    
   );
 };
 

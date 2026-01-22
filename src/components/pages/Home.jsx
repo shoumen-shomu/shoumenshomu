@@ -1,3 +1,4 @@
+import AboutMe from "../layouts/AboutMe"
 import Banner from "../layouts/Banner"
 import Services from "../layouts/Services"
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <Banner/>
         <Services/>
+        <AboutMe/>
     </div>
   )
 }
