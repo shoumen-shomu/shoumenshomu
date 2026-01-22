@@ -6,12 +6,12 @@ import hero from "/src/assets/hero.png";
 import Button from "../Button";
 import { FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 
 const Banner = () => {
   return (
-    <div>
-      <div class="bg-[url(/src/assets/banner.png)] bg-cover bg-center bg-no-repeat pt-50 pb-15">
+    <div className="bg-[#181A1D]">
+      <div class="bg-[url(/src/assets/bannerBg.png)] bg-cover bg-center bg-no-repeat pt-50 pb-16">
         <Container>
           <Flex className={"gap-x-[100px]"}>
             <div className="">
