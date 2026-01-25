@@ -1,0 +1,10 @@
+.logo-gray {
+  filter: grayscale(100%) invert(1) opacity(0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.logo-gray:hover {
+  opacity: 5;
+  filter: brightness(0) saturate(100%) invert(47%) sepia(82%) saturate(1837%) hue-rotate(329deg) brightness(96%) contrast(92%);
+  transform: .5s
+}

@@ -1,5 +1,6 @@
 import AboutMe from "../layouts/AboutMe"
 import Banner from "../layouts/Banner"
+import Collaborations from "../layouts/Collaborations"
 import Services from "../layouts/Services"
 
 
@@ -9,6 +10,7 @@ const Home = () => {
         <Banner/>
         <Services/>
         <AboutMe/>
+        <Collaborations/>
     </div>
   )
 }
