@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <div className="py-[90px] bg-[#212428] border-b border-b-[#181A1D]">
       <Container>
-        <Flex className={"justify-between mb-[55px]"}>
+        <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
           <div className="">
             <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
               CREATIVE SERVICE
