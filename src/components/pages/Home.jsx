@@ -1,8 +1,9 @@
 import AboutMe from "../layouts/AboutMe"
 import Banner from "../layouts/Banner"
 import Collaborations from "../layouts/Collaborations"
-import Experience from "../layouts/Experience"
+import Skills from "../layouts/Skills"
 import Services from "../layouts/Services"
+import Portfolio from "../layouts/Portfolio"
 
 
 const Home = () => {
@@ -12,7 +13,8 @@ const Home = () => {
         <Services/>
         <AboutMe/>
         <Collaborations/>
-        <Experience/>
+        <Skills/>
+        <Portfolio/>
     </div>
   )
 }
