@@ -34,3 +34,4 @@ const SkillBar = ({ title, percentage }) => {
 };
 
 export default SkillBar;
+
