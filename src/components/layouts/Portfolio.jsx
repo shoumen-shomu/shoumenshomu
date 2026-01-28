@@ -2,9 +2,9 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import ecommerceOne from "/src/assets/orebi.png"
-import portfolioOne from "/src/assets/Hunt.png"
-import portfolioTwo from "/src/assets/maryportfolio.png"
+import ecommerceOne from "/src/assets/orebi.png";
+import portfolioOne from "/src/assets/Hunt.png";
+import portfolioTwo from "/src/assets/maryportfolio.png";
 
 const Portfolio = () => {
   return (
@@ -29,20 +29,44 @@ const Portfolio = () => {
         </Flex>
         <div className="">
           <Flex className={"justify-center gap-x-[25px]"}>
-            <p  data-filter=".showall" className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer">Show All</p>
-            <p  data-filter=".web" className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer">Web</p>
-            <p  data-filter=".grapics" className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer">Graphics</p>
-            <p  data-filter=".development" className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer">Development</p>
-            <p  data-filter=".mobile" className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer">Mobile</p>
+            <p
+              data-filter=".showall"
+              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+            >
+              Show All
+            </p>
+            <p
+              data-filter=".web"
+              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+            >
+              Web
+            </p>
+            <p
+              data-filter=".grapics"
+              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+            >
+              Graphics
+            </p>
+            <p
+              data-filter=".development"
+              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+            >
+              Development
+            </p>
+            <p
+              data-filter=".mobile"
+              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+            >
+              Mobile
+            </p>
           </Flex>
         </div>
         <div className="mt-[50px]">
           <div className="grid grid-cols-3 gap-x-[15px]">
             <div className="w-[400px] h-[310px]">
-              <Images className={""} imgSrc={ecommerceOne}/>
+              <Images className={""} imgSrc={ecommerceOne} />
               <div className="w-full bg-[#EE5F38]">
-<p>React</p>
-
+                <p>React</p>
               </div>
             </div>
           </div>
