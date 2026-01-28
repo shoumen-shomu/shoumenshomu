@@ -5,7 +5,6 @@ import Skills from "../layouts/Skills"
 import Services from "../layouts/Services"
 import Portfolio from "../layouts/Portfolio"
 
-
 const Home = () => {
   return (
     <div>
@@ -15,6 +14,7 @@ const Home = () => {
         <Collaborations/>
         <Skills/>
         <Portfolio/>
+
     </div>
   )
 }
