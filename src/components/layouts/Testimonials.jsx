@@ -10,8 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import { ImQuotesLeft ,ImQuotesRight} from "react-icons/im";
-
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 
 const Testimonials = () => {
   return (
@@ -26,18 +25,26 @@ const Testimonials = () => {
               We are people say me
             </h2>
           </div>
-<ImQuotesLeft className={"text-[120px] text-[#EE5F38] absolute bottom-50 left-0 opacity-30"} />
-<ImQuotesRight className={"text-[120px] text-[#EE5F38] absolute bottom-50 right-0 opacity-30"} />
+          <ImQuotesLeft
+            className={
+              "text-[180px] text-[#EE5F38] absolute bottom-40 left-0 opacity-30"
+            }
+          />
+          <ImQuotesRight
+            className={
+              "text-[180px] text-[#EE5F38] absolute bottom-40 right-0 opacity-30"
+            }
+          />
           <div className="mt-14 w-182.5 mx-auto">
             <Swiper
               modules={[Pagination, Autoplay]}
               spaceBetween={30}
               slidesPerView={1}
               loop={true}
-            autoplay={{
-               delay: 3000,
-               disableOnInteraction: false,
-               }}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
               pagination={{
                 clickable: true,
               }}
