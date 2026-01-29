@@ -8,3 +8,19 @@
   filter: brightness(0) saturate(100%) invert(47%) sepia(82%) saturate(1837%) hue-rotate(329deg) brightness(96%) contrast(92%);
   transform: .5s
 }
+
+.swiper-pagination-bullet {
+  width: 40px !important;     
+  height: 10px !important;       
+  border-radius: 6px !important; 
+  background-color: #d6c8c8 !important; 
+  opacity: 0.5 !important;
+  transition: all 0.3s ease;    
+  margin: 0 6px !important;     
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #EE5F38 !important; /
+  width: 30px !important;       
+  opacity: 1 !important;
+}
