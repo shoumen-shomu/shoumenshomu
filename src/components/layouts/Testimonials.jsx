@@ -6,12 +6,12 @@ import alamin from "/src/assets/alamin.jpg";
 import majharul from "/src/assets/sijan.jpg";
 import nabil from "/src/assets/nabil.jpg";
 import rafi from "/src/assets/rafi.jpg";
-import { ImQuotesLeft,ImQuotesRight } from "react-icons/im";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import { ImQuotesLeft ,ImQuotesRight} from "react-icons/im";
+
 
 const Testimonials = () => {
   return (
@@ -26,8 +26,8 @@ const Testimonials = () => {
               We are people say me
             </h2>
           </div>
-<ImQuotesLeft />
-<ImQuotesRight />
+<ImQuotesLeft className={"text-[120px] text-[#EE5F38] absolute bottom-50 left-0 opacity-30"} />
+<ImQuotesRight className={"text-[120px] text-[#EE5F38] absolute bottom-50 right-0 opacity-30"} />
           <div className="mt-14 w-182.5 mx-auto">
             <Swiper
               modules={[Pagination, Autoplay]}
