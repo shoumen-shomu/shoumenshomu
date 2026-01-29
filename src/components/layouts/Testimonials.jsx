@@ -27,12 +27,12 @@ const Testimonials = () => {
           </div>
           <ImQuotesLeft
             className={
-              "text-[180px] text-[#EE5F38] absolute bottom-40 left-0 opacity-30"
+              "text-[180px] text-[#EE5F38] absolute bottom-40 -left-40 opacity-30"
             }
           />
           <ImQuotesRight
             className={
-              "text-[180px] text-[#EE5F38] absolute bottom-40 right-0 opacity-30"
+              "text-[180px] text-[#EE5F38] absolute bottom-40 -right-40 opacity-30"
             }
           />
           <div className="mt-14 w-182.5 mx-auto">
@@ -48,11 +48,11 @@ const Testimonials = () => {
               pagination={{
                 clickable: true,
               }}
-              // Custom styles for the pagination dots to match your orange theme
+              
               style={{
                 "--swiper-pagination-color": "#EE5F38",
                 "--swiper-pagination-bullet-inactive-color": "#999999",
-                paddingBottom: "40px", // Space for dots at bottom
+                paddingBottom: "40px",
               }}
             >
               {/* Review one */}
@@ -65,7 +65,7 @@ const Testimonials = () => {
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                   </div>
-                  <p className="font-rubik font-light text-[24px] text-[#E2E8F0] leading-8 italic text-center w-182.5 mx-auto mb-[20px]">
+                  <p className="font-rubik font-light text-[24px] text-[#E2E8F0] leading-8 italic text-center w-182.5 mx-auto mb-5">
                     "Shoumen built a powerful full-stack website. The backend
                     integration was seamless, and the React frontend looks
                     amazing. Highly skilled full-stack developer!"
@@ -79,7 +79,7 @@ const Testimonials = () => {
                   <p className="font-rubik font-bold text-[24px] text-white leading-8 text-center">
                     Md Al-Amin
                   </p>
-                  <p className="font-rubik font-normal text-base text-[#F1F5F9] leading-6 text-center mb-[18px]">
+                  <p className="font-rubik font-normal text-base text-[#F1F5F9] leading-6 text-center mb-4.5">
                     Mern Stack Developer
                   </p>
                 </div>
@@ -89,7 +89,7 @@ const Testimonials = () => {
               {/* Review Two */}
               <SwiperSlide>
                 <div className="">
-                  <div className="flex gap-x-[5px] justify-center mb-5">
+                  <div className="flex gap-x-1.25 justify-center mb-5">
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
