@@ -6,6 +6,8 @@ import Services from "../layouts/Services"
 import Portfolio from "../layouts/Portfolio"
 import Testimonials from "../layouts/Testimonials"
 
+import ContactPart from "../layouts/ContactPart"
+
 const Home = () => {
   return (
     <div>
@@ -16,6 +18,8 @@ const Home = () => {
         <Skills/>
         <Portfolio/>
         <Testimonials/>
+        <ContactPart/>
+        
     </div>
   )
 }

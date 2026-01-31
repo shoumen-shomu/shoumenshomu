@@ -11,9 +11,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const Banner = () => {
   return (
     <div className="bg-[#181A1D]">
-      <div class="bg-[url(/src/assets/bannerBg.png)] bg-cover bg-center bg-no-repeat pt-50 pb-16">
+      <div className="bg-[url(/src/assets/bannerBg.png)] bg-cover bg-center bg-no-repeat pt-50 pb-16">
         <Container>
-          <Flex className={"gap-x-[100px]"}>
+          <Flex className={"gap-x-25"}>
             <div className="">
               <Images imgSrc={hero} />
             </div>
