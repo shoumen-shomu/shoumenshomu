@@ -7,8 +7,8 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import Flex from "../Flex";
 const ContactPart = () => {
   return (
-    <div>
-      <div className="bg-[url(/src/assets/contact.png)] bg-cover bg-center bg-no-repeat pt-25 pb-81.25">
+    <div className="bg-[#212428] border-b border-b-[#181A1D]">
+      <div className="bg-[url(/src/assets/contact.png)] bg-cover bg-center bg-no-repeat pt-25 pb-[30px]">
         <Container>
           <Flex className={"gap-20"}>
             <div className="left">
@@ -55,8 +55,12 @@ const ContactPart = () => {
                   <FaPhoneAlt className="text-[25px] text-white" />
                 </div>
                 <div className="">
-                  <p className="font-heebo font-bold text-[32px] text-white leading-12">Call Me</p>
-                  <p className="font-rubik font-normal text-base text-white leading-6">+8801755-933871</p>
+                  <p className="font-heebo font-bold text-[32px] text-white leading-12">
+                    Call Me
+                  </p>
+                  <p className="font-rubik font-normal text-base text-white leading-6">
+                    +8801755-933871
+                  </p>
                 </div>
               </div>
               <div className="flex items-center gap-6">
@@ -64,8 +68,12 @@ const ContactPart = () => {
                   <MdOutlineEmail className="text-[25px] text-white" />
                 </div>
                 <div className="">
-                  <p className="font-heebo font-bold text-[32px] text-white leading-12">Email Me</p>
-                  <p className="font-rubik font-normal text-base text-white leading-6">shoumenshomu@gmail.com</p>
+                  <p className="font-heebo font-bold text-[32px] text-white leading-12">
+                    Email Me
+                  </p>
+                  <p className="font-rubik font-normal text-base text-white leading-6">
+                    shoumenshomu@gmail.com
+                  </p>
                 </div>
               </div>
               <div className="flex items-center gap-6">
@@ -73,12 +81,25 @@ const ContactPart = () => {
                   <FaMapMarkerAlt className="text-[25px] text-white" />
                 </div>
                 <div className="">
-                  <p className="font-heebo font-bold text-[32px] text-white leading-12">Address</p>
-                  <p className="font-rubik font-normal text-base text-white leading-6">Dhaka, Bangladesh</p>
+                  <p className="font-heebo font-bold text-[32px] text-white leading-12">
+                    Address
+                  </p>
+                  <p className="font-rubik font-normal text-base text-white leading-6">
+                    Dhaka, Bangladesh
+                  </p>
                 </div>
               </div>
             </div>
           </Flex>
+          <div className="mt-[70px] justify-center">
+            <map  name="">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.83187894154!2d90.33728812288355!3d23.780975728197344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1770051810485!5m2!1sen!2sbd"
+              width="1220"
+              height="350"
+            ></iframe>
+          </map>
+          </div>
         </Container>
       </div>
     </div>
