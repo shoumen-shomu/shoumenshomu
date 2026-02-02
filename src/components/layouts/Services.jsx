@@ -2,12 +2,12 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import firstcompo from "/src/assets/service1stCom.png";
-import secendcompo from "/src/assets/service2ndCom.png";
-import thirdcompo from "/src/assets/service3rdCom.png";
-import fourthcompo from "/src/assets/service4thCom.png";
-import fifthcompo from "/src/assets/service5thCom.png";
-import sixthcompo from "/src/assets/service6thCom.png";
+import firstcompo from "/src/assets/service1stcom.png";
+import secendcompo from "/src/assets/service2ndcom.png";
+import thirdcompo from "/src/assets/service3rdcom.png";
+import fourthcompo from "/src/assets/service4thcom.png";
+import fifthcompo from "/src/assets/service5thcom.png";
+import sixthcompo from "/src/assets/service6thcom.png";
 
 const Services = () => {
   return (
