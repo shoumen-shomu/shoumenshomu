@@ -51,7 +51,7 @@ const ContactPart = () => {
             </div>
             <div className="right space-y-[50px] pt-[100px]">
               <div className="flex items-center gap-6">
-                <div className="h-[70px] w-[70px] bg-[#EE5F38] rounded-[50%] flex justify-center items-center">
+                <div className="h-17.5 w-17.5 bg-[#EE5F38] rounded-[50%] flex justify-center items-center">
                   <FaPhoneAlt className="text-[25px] text-white" />
                 </div>
                 <div className="">
