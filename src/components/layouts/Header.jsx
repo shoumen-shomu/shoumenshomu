@@ -2,8 +2,9 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import logo from "/src/assets/logo.png";
+import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { MdOutlineFileDownload } from "react-icons/md";
 
 const Header = () => {
@@ -17,33 +18,37 @@ const Header = () => {
                 <Images imgSrc={logo} />
               </Link>
             </div>
-            <div className="w-">
+            <div className="">
               <ul className="flex gap-x-11.25">
-                <Link>
+                <Link to={"/"}>
                   <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
                     Home
                   </li>
                 </Link>
-                <Link>
-                  <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
+
+                <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
+                  <HashLink smooth to="#about">
                     About
-                  </li>
-                </Link>
-                <Link>
-                  <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
+                  </HashLink>
+                </li>
+
+                <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
+                  <HashLink smooth to="#services">
                     Services
-                  </li>
-                </Link>
-                <Link>
-                  <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
+                  </HashLink>
+                </li>
+
+                <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
+                  <HashLink smooth to="#portfolio">
                     Portfolio
-                  </li>
-                </Link>
-                <Link>
-                  <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
+                  </HashLink>
+                </li>
+
+                <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500">
+                  <HashLink smooth to="#contact">
                     Contact
-                  </li>
-                </Link>
+                  </HashLink>
+                </li>
               </ul>
             </div>
             <div className="flex items-center gap-x-[10px] py-[8px] px-[18px] rounded-[32px] bg-[#EE5F38] text-white border border-[#EE5F38] hover:bg-transparent duration-500 cursor-pointer">

@@ -11,7 +11,7 @@ const Skills = () => {
         <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
           <div className="">
             <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
-              SKILLs
+              SKILLS
             </p>
             <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
               Skill of Best Masters Software Skills.

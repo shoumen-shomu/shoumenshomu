@@ -2,12 +2,12 @@ import React, { useEffect, useRef } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import ecommerceOne from "/src/assets/orebi.png";
-import ecommerceTwo from "/src/assets/uomo.png";
-import portfolioOne from "/src/assets/Hunt.png";
-import portfolioTwo from "/src/assets/Hancock.png";
-import landingPage from "/src/assets/Lime.png";
-import agencyOne from "/src/assets/Digitalproducagency.png";
+import ecommerceOne from "../../assets/orebi.png";
+import ecommerceTwo from "../../assets/uomo.png";
+import portfolioOne from "../../assets/Hunt.png";
+import portfolioTwo from "../../assets/Hancock.png";
+import landingPage from "../../assets/Lime.png";
+import agencyOne from "../../assets/Digitalproducagency.png";
 import mixitup from "mixitup";
 import { FaGithub } from "react-icons/fa";
 

@@ -2,14 +2,14 @@ import React from "react";
 import Container from "../Container";
 import Images from "../Images";
 import Flex from "../Flex";
-import colone from '/src/assets/p1.png'
-import coltwo from '/src/assets/p3.png'
-import colthree from '/src/assets/p2.png'
-import colfour from '/src/assets/p4.png'
-import colfive from '/src/assets/p5.png'
-import colsix from '/src/assets/p6.png'
-import colseven from '/src/assets/p7.png'
-import coleight from '/src/assets/p8.png'
+import colone from '../../assets/p1.png'
+import coltwo from '../../assets/p3.png'
+import colthree from '../../assets/p2.png'
+import colfour from '../../assets/p4.png'
+import colfive from '../../assets/p5.png'
+import colsix from '../../assets/p6.png'
+import colseven from '../../assets/p7.png'
+import coleight from '../../assets/p8.png'
 
 const Collaborations = () => {
   return (
