@@ -8,7 +8,7 @@ import Flex from "../Flex";
 
 const ContactPart = () => {
   return (
-    <div className="bg-[#212428] border-b border-b-[#181A1D]">
+    <div id="contact" className="bg-[#212428] border-b border-b-[#181A1D]">
       <div className="bg-[url(/src/assets/contact.png)] bg-cover bg-center bg-no-repeat pt-25 pb-[30px]">
         <Container>
           <Flex className={"gap-20"}>

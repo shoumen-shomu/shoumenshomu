@@ -35,7 +35,7 @@ const Testimonials = () => {
               "text-[180px] text-[#EE5F38] absolute bottom-40 -right-40 opacity-30"
             }
           />
-          <div className="mt-14 w-182.5 mx-auto">
+          <div className="mt-14 max-w-182.5 mx-auto">
             <Swiper
               modules={[Pagination, Autoplay]}
               spaceBetween={30}

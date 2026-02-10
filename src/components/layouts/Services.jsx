@@ -11,7 +11,7 @@ import sixthcompo from "../../assets/servicesixthcom.png";
 
 const Services = () => {
   return (
-    <div className="py-22.5 bg-[#212428] border-b border-b-[#181A1D]">
+    <div id="services" className="py-22.5 bg-[#212428] border-b border-b-[#181A1D]">
       <Container>
         <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
           <div className="">

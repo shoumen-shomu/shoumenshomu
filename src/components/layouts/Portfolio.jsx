@@ -27,7 +27,7 @@ const Portfolio = () => {
     }
   });
   return (
-    <div className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
+    <div id="portfolio" className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
       <Container>
         <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
           <div className="">

@@ -7,7 +7,7 @@ import InfoItem from "../InfoItem";
 
 const AboutMe = () => {
   return (
-    <div className="py-[100px] bg-[#212428] border-b border-b-[#181A1D]">
+    <div id="about" className="py-[100px] bg-[#212428] border-b border-b-[#181A1D]">
       <Container>
         <Flex className={"gap-x-[40px]"}>
           <div className="w-[55%]">
