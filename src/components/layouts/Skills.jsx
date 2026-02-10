@@ -14,29 +14,29 @@ const Skills = () => {
               SKILLS
             </p>
             <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
-              Skill of Best Masters Software Skills.
+              My Technical Expertise & Skills.
             </h2>
           </div>
           <div className="w-[50%]">
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
-              Promote your skills, case studies, and product ouncems with the
-              the branded videoscustomers coming back for services Makes best
-              effort.
+              I utilize the latest technologies to build scalable web
+              applications that exceed client expectations and drive real
+              business growth effectively.
             </p>
           </div>
         </Flex>
-          <div className="flex gap-x-56.5">
-            <div className="">
-              <SkillBar percentage={56} title={"Node.js"} />
-              <SkillBar percentage={75} title={"JavaScript"} />
-              <SkillBar percentage={90} title={"Web Design"} />
-            </div>
-            <div className="">
-              <SkillBar percentage={100} title={"HTML"} />
-              <SkillBar percentage={90} title={"CSS"} />
-              <SkillBar percentage={70} title={"React.js"} />
-            </div>
+        <div className="flex gap-x-56.5">
+          <div className="">
+            <SkillBar percentage={56} title={"Node.js"} />
+            <SkillBar percentage={75} title={"JavaScript"} />
+            <SkillBar percentage={90} title={"Web Design"} />
           </div>
+          <div className="">
+            <SkillBar percentage={100} title={"HTML"} />
+            <SkillBar percentage={90} title={"CSS"} />
+            <SkillBar percentage={70} title={"React.js"} />
+          </div>
+        </div>
       </Container>
     </div>
   );

@@ -11,7 +11,10 @@ import sixthcompo from "../../assets/servicesixthcom.png";
 
 const Services = () => {
   return (
-    <div id="services" className="py-22.5 bg-[#212428] border-b border-b-[#181A1D]">
+    <div
+      id="services"
+      className="py-22.5 bg-[#212428] border-b border-b-[#181A1D]"
+    >
       <Container>
         <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
           <div className="">
@@ -19,14 +22,14 @@ const Services = () => {
               CREATIVE SERVICE
             </p>
             <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
-              What can i do for service clients you
+              Services I Provide For Your Business.
             </h2>
           </div>
           <div className="w-[50%]">
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
-              Promote your blog posts, case udie, and product ouncems with the
-              the branded videoscustomers coming back for services Makes best
-              effort.
+              Create stunning interfaces, user flows, and responsive layouts
+              with the latest frameworks ensuring clients receive high quality
+              solutions for their business.
             </p>
           </div>
         </Flex>
@@ -37,8 +40,8 @@ const Services = () => {
               Web Development
             </h3>
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
-              Promote your blog posts, case udie, and product ouncems nts with
-              the the branded videos.
+              I build fast, responsive, and secure websites tailored to meet
+              your specific business needs perfectly.
             </p>
             <div className="flex items-center gap-x-2.75">
               <div className="w-1.75 h-1.75 bg-[#48CDA0]"></div>
@@ -59,8 +62,8 @@ const Services = () => {
               Creative Design
             </h3>
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
-              Promote your blog posts, case udie, and product ouncems nts with
-              the the branded videos.
+              I create stunning visuals and unique branding designs that will
+              captivate your audience and customers.
             </p>
             <div className="flex items-center gap-x-2.75">
               <div className="w-1.75 h-1.75 bg-[#ED5F38]"></div>
@@ -81,8 +84,8 @@ const Services = () => {
               Project Consultancy
             </h3>
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
-              Promote your blog posts, case udie, and product ouncems nts with
-              the the branded videos.
+              I offer expert advice and strategic planning to ensure your
+              projects succeed and deliver results.
             </p>
             <div className="flex items-center gap-x-[11px]">
               <div className="w-1.75 h-1.75 bg-[#007EFF]"></div>
@@ -103,8 +106,8 @@ const Services = () => {
               24/7 Support
             </h3>
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
-              Promote your blog posts, case udie, and product ouncems nts with
-              the the branded videos.
+              I provide round the clock assistance to resolve any technical
+              issues you might face instantly.
             </p>
             <div className="flex items-center gap-x-[11px]">
               <div className="w-1.75 h-1.75 bg-[#E6BC13]"></div>
@@ -125,8 +128,8 @@ const Services = () => {
               Awesome Idea
             </h3>
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
-              Promote your blog posts, case udie, and product ouncems nts with
-              the the branded videos.
+              I turn your raw ideas into live projects using smart code and
+              design
             </p>
             <div className="flex items-center gap-x-[11px]">
               <div className="w-1.75 h-1.75 bg-[#ED38D1]"></div>
@@ -147,8 +150,8 @@ const Services = () => {
               Development Design
             </h3>
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
-              Promote your blog posts, case udie, and product ouncems nts with
-              the the branded videos.
+              I design intuitive user interfaces that look great and function
+              seamlessly for the best experience.
             </p>
             <div className="flex items-center gap-x-[11px]">
               <div className="w-1.75 h-1.75 bg-[#A348CD]"></div>

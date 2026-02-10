@@ -27,7 +27,10 @@ const Portfolio = () => {
     }
   });
   return (
-    <div id="portfolio" className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
+    <div
+      id="portfolio"
+      className="py-25 bg-[#212428] border-b border-b-[#181A1D]"
+    >
       <Container>
         <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
           <div className="">
@@ -35,14 +38,13 @@ const Portfolio = () => {
               PORTFOLIO
             </p>
             <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
-              Never compromise for portfolio quality
+              I Never Compromise On Quality.
             </h2>
           </div>
           <div className="w-[50%]">
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
-              Promote your skills, case studies, and product ouncems with the
-              the branded videoscustomers coming back for services Makes best
-              effort.
+              Check out my recent projects where I turn unique ideas into
+              reality with creative design and professional coding standards.
             </p>
           </div>
         </Flex>
@@ -74,8 +76,11 @@ const Portfolio = () => {
             </p>
           </Flex>
         </div>
-        <div className="mt-[50px]" >
-          <div className="flex flex-wrap gap-x-[30px] gap-y-[30px] justify-center" ref={containerRef}>
+        <div className="mt-[50px]">
+          <div
+            className="flex flex-wrap gap-x-[30px] gap-y-[30px] justify-center"
+            ref={containerRef}
+          >
             <div className="w-[370px] h-[310px] group relative mix showAll e-Commerce  ">
               <Images
                 className={"w-full h-full object-cover"}
