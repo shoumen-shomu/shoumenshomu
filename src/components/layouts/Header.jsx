@@ -12,9 +12,9 @@ import { RxCross2 } from "react-icons/rx";
 const Header = () => {
   const [show, setShow] = useState(false);
   return (
-    <div className="bg-[#181A1D] fixed w-full top-0 left-0 z-50">
+    <div className="bg-[#181A1D] sticky w-full top-0 left-0 z-50">
       <Container>
-        <div className="py-5 lg:px-0 px-4">
+        <div className="py-5 lg:px-0 ">
           <Flex className={"justify-between"}>
             {/* logo part start */}
             <div className="lg:w-[30%] w-auto">
