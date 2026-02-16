@@ -34,7 +34,7 @@ const AboutMe = () => {
               </HashLink>
             </div>
           </div>
-          <div className="bg-[#212428] lg:p-8 py-8 lg:py-0 pl-2 lg:pl-0 rounded-2xl border border-gray-800 lg:w-[45%] transition-all duration-300 shadow-[0_0_20px_rgba(0,0,0,0.1)] overflow-hidden group hover:-translate-y-2">
+          <div className="bg-[#212428] lg:py-8 lg:px-8 py-8 px-5  rounded-2xl border border-gray-800 lg:w-[45%] transition-all duration-300 shadow-[0_0_20px_rgba(0,0,0,0.1)] overflow-hidden group hover:-translate-y-2">
             <h3 className="font-rubik font-medium text-[24px] text-white leading-9 mb-6 border-l-4 border-orange-500 pl-4 group-hover:text-orange-500 transition-colors duration-300">
               Personal Infos
             </h3>
