@@ -10,16 +10,16 @@ const AboutMe = () => {
   return (
     <div id="about" className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
       <Container>
-        <Flex className={"gap-x-10"}>
-          <div className="w-[55%]">
-            <div className="mb-7.5">
-              <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
+        <Flex className={"gap-x-10 lg:flex-row flex-col"}>
+          <div className="lg:w-[55%]">
+            <div className="mb-7.5 text-center lg:text-left">
+              <p className="font-rubik font-medium text-[24px]  text-[#EE5F38] leading-9">
                 ABOUT ME
               </p>
-              <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
+              <h2 className="font-heebo font-bold text-[48px]  text-white leading-14.5 ">
                 I build modern sites with leading React & Web Tech.
               </h2>
-              <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 mt-4 text-justify">
+              <p className="font-rubik font-normal text-[17px]  text-[#E2E8F0] leading-7 mt-4 lg:text-justify">
                 I am a professional Front-End Developer with a passion for
                 creating intuitive and dynamic user experiences. I specialize in
                 turning complex problems into simple, beautiful, and intuitive
@@ -28,15 +28,17 @@ const AboutMe = () => {
                 brand companies.
               </p>
             </div>
-            <HashLink smooth to="#contact">
-              <Button btnText={"Hire Me"} />
-            </HashLink>
+            <div className="text-left">
+              <HashLink smooth to="#contact">
+                <Button btnText={"Hire Me"} />
+              </HashLink>
+            </div>
           </div>
-          <div className="bg-[#212428] p-8 rounded-2xl border border-gray-800 w-[45%] transition-all duration-300 shadow-[0_0_20px_rgba(0,0,0,0.1)] overflow-hidden group hover:-translate-y-2 transition-transform">
+          <div className="bg-[#212428] lg:p-8 pl-2 rounded-2xl border border-gray-800 lg:w-[45%] transition-all duration-300 shadow-[0_0_20px_rgba(0,0,0,0.1)] overflow-hidden group hover:-translate-y-2">
             <h3 className="font-rubik font-medium text-[24px] text-white leading-9 mb-6 border-l-4 border-orange-500 pl-4 group-hover:text-orange-500 transition-colors duration-300">
               Personal Infos
             </h3>
-            <div className="grid grid-cols-2 gap-y-6 gap-x-4">
+            <div className="grid grid-cols-2 gap-y-6 lg:gap-x-4">
               <InfoItem label="First Name" value="Shoumen" />
               <InfoItem label="Last Name" value="Shomu" />{" "}
               <InfoItem label="Address" value="Dhaka, Bangladesh" />

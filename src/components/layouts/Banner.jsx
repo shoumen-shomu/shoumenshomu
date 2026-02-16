@@ -27,7 +27,7 @@ const Banner = () => {
                 <p className="font-rubik font-light text-[24px] text-[#EE5F38] leading-9">
                   HELLO I'M
                 </p>
-                <h1 className="font-heebo font-bold text-[60px]  text-white leading-22.5">
+                <h1 className="font-heebo font-bold text-[60px] text-white leading-22.5 ">
                   Shoumen Shomu!
                 </h1>
                 <h2 className="font-heebo font-normal text-[32px] text-white lg:leading-12">
