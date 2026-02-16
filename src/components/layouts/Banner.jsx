@@ -11,39 +11,46 @@ import { HashLink } from "react-router-hash-link";
 const Banner = () => {
   return (
     <div className="bg-[#181A1D]">
-      <div className="bg-[url(/src/assets/bannerBg.png)] bg-cover bg-center bg-no-repeat pt-50 pb-16">
+      <div className="bg-[url(/src/assets/bannerBg.png)] bg-cover bg-center bg-no-repeat lg:pt-50 pt-20 pb-16">
         <Container>
-          <Flex className={"gap-x-25"}>
-            <div className="">
+          <Flex className={"gap-x-25 flex-col lg:flex-row"}>
+            {/* Banner Image Start */}
+            <div className="ml-4 lg:ml-0">
               <Images imgSrc={hero} />
             </div>
-            <div className="w-175.5">
-              <p className="font-rubik font-light text-[24px] text-[#EE5F38] leading-9">
-                HELLO I'M
-              </p>
-              <h1 className="font-heebo font-bold text-[60px] text-white leading-22.5">
-                Shoumen Shomu!
-              </h1>
-              <h2 className="font-heebo font-normal text-[32px] text-white leading-12">
-                Front-End Developer
-              </h2>
-              <p className="font-rubik font-normal text-[20px] text-[#E2E8F0] leading-7.5 max-w-105 pt-4.5 pb-7.5">
-                Passionate about crafting pixel-perfect, responsive user
-                interfaces using React, JavaScript, and Tailwind CSS. I turn
-                creative designs into interactive web experiences.
-              </p>
-              <div className="max-w-132.5 flex items-center gap-x-4.5">
-                <div className="">
+            {/* Banner Image End */}
+
+            {/* Banner Content Start */}
+
+            <div className="lg:w-175.5 w-100 mt-10 lg:mt-0">
+              <div className="text-center lg:text-left">
+                <p className="font-rubik font-light text-[24px] text-[#EE5F38] leading-9">
+                  HELLO I'M
+                </p>
+                <h1 className="font-heebo font-bold text-[60px]  text-white leading-22.5">
+                  Shoumen Shomu!
+                </h1>
+                <h2 className="font-heebo font-normal text-[32px] text-white lg:leading-12">
+                  Front-End Developer
+                </h2>
+                <p className="font-rubik font-normal lg:text-[20px] text-[20px] text-[#E2E8F0] leading-7.5  max-w-105 pt-4.5 pb-7.5">
+                  Passionate about crafting pixel-perfect, responsive user
+                  interfaces using React, JavaScript, and Tailwind CSS. I turn
+                  creative designs into interactive web experiences.
+                </p>
+              </div>
+              <div className="max-w-132.5 lg:flex items-center gap-x-4.5">
+                <div className="text-center lg:text-left">
                   <HashLink smooth to="#about">
                     <Button className={"inline-block"} btnText={"About Me"} />
                   </HashLink>
                 </div>
-                <div className="flex items-center gap-x-3.75">
-                  <p className="font-heebo font-semibold text-[22px] text-white leading-[33px]">
+                <div className="lg:flex items-center gap-x-3.75 mt-4.5 lg:mt-0">
+                  <p className="font-heebo font-semibold text-[22px] text-white leading-8.25 text-center">
                     Follow Me:
                   </p>
                   {/* Social Links Start */}
-                  <div className="flex items-center gap-x-2.5">
+                  <div className="flex items-center gap-x-2.5 lg:mt-0 mt-4.5 justify-center lg:justify-start">
                     <a
                       href="https://github.com/shoumen-shomu"
                       target="_blank"
@@ -85,6 +92,7 @@ const Banner = () => {
                 {/* Social Links End */}
               </div>
             </div>
+            {/* Banner Content End */}
           </Flex>
         </Container>
       </div>
