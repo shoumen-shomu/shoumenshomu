@@ -27,12 +27,12 @@ const Testimonials = () => {
           </div>
           <ImQuotesLeft
             className={
-              "text-[180px] text-[#EE5F38] absolute bottom-40 -left-40 opacity-30"
+              "text-[180px] text-[#EE5F38] absolute bottom-40 -left-40 opacity-30 hidden lg:block"
             }
           />
           <ImQuotesRight
             className={
-              "text-[180px] text-[#EE5F38] absolute bottom-40 -right-40 opacity-30"
+              "text-[180px] text-[#EE5F38] absolute bottom-40 -right-40 opacity-30 hidden lg:block"
             }
           />
           <div className="mt-14 max-w-182.5 mx-auto">
@@ -40,11 +40,11 @@ const Testimonials = () => {
               modules={[Pagination, Autoplay]}
               spaceBetween={30}
               slidesPerView={1}
-              loop={true}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-              }}
+              // loop={true}
+              // autoplay={{
+              //   delay: 3000,
+              //   disableOnInteraction: false,
+              // }}
               pagination={{
                 clickable: true,
               }}
@@ -58,14 +58,14 @@ const Testimonials = () => {
               {/* Review one */}
               <SwiperSlide>
                 <div className="">
-                  <div className="flex gap-x-[5px] justify-center mb-5">
+                  <div className="flex gap-x-1.25 justify-center mb-5">
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                   </div>
-                  <p className="font-rubik font-light text-[24px] text-[#E2E8F0] leading-8 italic text-center w-182.5 mx-auto mb-5">
+                  <p className="font-rubik font-light lg:text-[24px] text-[#E2E8F0] leading-8 italic text-center lg:w-182.5 w-90 mx-auto mb-5">
                     "Shoumen built a powerful full-stack website. The backend
                     integration was seamless, and the React frontend looks
                     amazing. Highly skilled full-stack developer!"
@@ -96,7 +96,7 @@ const Testimonials = () => {
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                   </div>
-                  <p className="font-rubik font-light text-[24px] text-[#E2E8F0] leading-8 italic text-center w-182.5 mx-auto mb-[20px]">
+                  <p className="font-rubik font-light lg:text-[24px] text-[#E2E8F0] leading-8 italic text-center lg:w-182.5 w-90 mx-auto mb-5">
                     "Incredible full-stack skills! He handled everything from
                     the database to the UI with expertise. The application is
                     fast, secure, and bug-free."
@@ -110,7 +110,7 @@ const Testimonials = () => {
                   <p className="font-rubik font-bold text-[24px] text-white leading-8 text-center">
                     Mr.Sijan
                   </p>
-                  <p className="font-rubik font-normal text-base text-[#F1F5F9] leading-6 text-center mb-[18px]">
+                  <p className="font-rubik font-normal text-base text-[#F1F5F9] leading-6 text-center mb-4.5">
                     TechFlow Systems
                   </p>
                 </div>
@@ -127,7 +127,7 @@ const Testimonials = () => {
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                   </div>
-                  <p className="font-rubik font-light text-[24px] text-[#E2E8F0] leading-8 italic text-center w-182.5 mx-auto mb-[20px]">
+                  <p className="font-rubik font-light lg:text-[24px] text-[#E2E8F0] leading-8 italic text-center lg:w-182.5 w-90 mx-auto mb-5">
                     "I am amazed by the quality. A true full-stack expert who
                     understands the entire development lifecycle. Highly
                     recommend for complex projects."
@@ -141,7 +141,7 @@ const Testimonials = () => {
                   <p className="font-rubik font-bold text-[24px] text-white leading-8 text-center">
                     Nabil Muntasir
                   </p>
-                  <p className="font-rubik font-normal text-base text-[#F1F5F9] leading-6 text-center mb-[18px]">
+                  <p className="font-rubik font-normal text-base text-[#F1F5F9] leading-6 text-center mb-4.5">
                     NovaStack Solutions
                   </p>
                 </div>
@@ -151,14 +151,14 @@ const Testimonials = () => {
               {/* Review Four */}
               <SwiperSlide>
                 <div className="">
-                  <div className="flex gap-x-[5px] justify-center mb-5">
+                  <div className="flex gap-x-1.25 justify-center mb-5">
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                     <FaStar className="text-base text-[#FFCE31]" />
                   </div>
-                  <p className="font-rubik font-light text-[24px] text-[#E2E8F0] leading-8 italic text-center w-182.5 mx-auto mb-[20px]">
+                  <p className="font-rubik font-light lg:text-[24px] text-[#E2E8F0] leading-8 italic text-center lg:w-182.5 w-90 mx-auto mb-5">
                     "Professional and efficient. He delivered a complete web
                     solution perfectly. His mastery of both front-end and
                     back-end technologies is impressive."
@@ -172,7 +172,7 @@ const Testimonials = () => {
                   <p className="font-rubik font-bold text-[24px] text-white leading-8 text-center">
                     Mesbaul Haque
                   </p>
-                  <p className="font-rubik font-normal text-base text-[#F1F5F9] leading-6 text-center mb-[18px]">
+                  <p className="font-rubik font-normal text-base text-[#F1F5F9] leading-6 text-center mb-4.5">
                     DevPoint IO
                   </p>
                 </div>
