@@ -16,8 +16,8 @@ const Services = () => {
       className="py-22.5 bg-[#212428] border-b border-b-[#181A1D]"
     >
       <Container>
-        <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
-          <div className="">
+        <Flex className={"flex-col lg:justify-between mb-13.75 gap-x-30.75"}>
+          <div className="text-center lg:text-left">
             <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
               CREATIVE SERVICE
             </p>
@@ -25,7 +25,7 @@ const Services = () => {
               Services I Provide For Your Business.
             </h2>
           </div>
-          <div className="w-[50%]">
+          <div className="lg:w-[50%] text-center mt-4 lg:mt-0">
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
               Create stunning interfaces, user flows, and responsive layouts
               with the latest frameworks ensuring clients receive high quality
@@ -33,7 +33,7 @@ const Services = () => {
             </p>
           </div>
         </Flex>
-        <div className=" grid grid-cols-3 gap-x-7.5 gap-y-7.5">
+        <div className=" grid lg:grid-cols-3 grid-cols-1 gap-x-7.5 gap-y-7.5">
           <div className="px-10 pb-10 shadow-[0_0_20px_rgba(0,0,0,0.1)] overflow-hidden group hover:-translate-y-2 transition-transform duration-300">
             <Images className={"mb-5"} imgSrc={firstcompo} />
             <h3 className="font-heebo font-bold text-[25px] text-white leading-[37.5px]">
