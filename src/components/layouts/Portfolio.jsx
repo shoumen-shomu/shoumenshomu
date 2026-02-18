@@ -32,8 +32,8 @@ const Portfolio = () => {
       className="py-25 bg-[#212428] border-b border-b-[#181A1D]"
     >
       <Container>
-        <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
-          <div className="">
+        <Flex className={"flex-col lg:flex-row lg:justify-between mb-13.75 gap-x-30.75"}>
+          <div className="text-center lg:text-left">
             <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
               PORTFOLIO
             </p>
@@ -41,47 +41,47 @@ const Portfolio = () => {
               I Never Compromise On Quality.
             </h2>
           </div>
-          <div className="w-[50%]">
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
+          <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 lg:w-114.75 w-110">
               Check out my recent projects where I turn unique ideas into
               reality with creative design and professional coding standards.
             </p>
           </div>
         </Flex>
         <div className="">
-          <Flex className={"justify-center gap-x-[25px]"}>
+          <Flex className={"justify-center gap-x-6.25"}>
             <p
               data-filter=".showAll"
-              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[15px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
             >
               Show All
             </p>
             <p
               data-filter=".e-Commerce"
-              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[15px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
             >
               e-Commerce
             </p>
             <p
               data-filter=".portfolio"
-              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[15px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
             >
               Portfolio
             </p>
             <p
               data-filter=".landingPage"
-              className="font-rubik font-medium text-[18px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[15px] text-white leading-6.75 hover:text-[#EE5F38] duration-500 cursor-pointer"
             >
               Landing Page
             </p>
           </Flex>
         </div>
-        <div className="mt-[50px]">
+        <div className="mt-12.5">
           <div
-            className="flex flex-wrap gap-x-[30px] gap-y-[30px] justify-center"
+            className="flex flex-wrap gap-x-7.5 gap-y-7.5 justify-center"
             ref={containerRef}
           >
-            <div className="w-[370px] h-[310px] group relative mix showAll e-Commerce  ">
+            <div className="w-92.5 h-77.5 group relative mix showAll e-Commerce  ">
               <Images
                 className={"w-full h-full object-cover"}
                 imgSrc={ecommerceOne}

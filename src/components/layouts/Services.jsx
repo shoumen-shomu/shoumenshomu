@@ -26,7 +26,7 @@ const Services = () => {
             </h2>
           </div>
           <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 lg:w-114.75 w-110">
               Create stunning interfaces, user flows, and responsive layouts
               with the latest frameworks ensuring clients receive high quality
               solutions for their business.
