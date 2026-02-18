@@ -16,7 +16,7 @@ const Services = () => {
       className="py-22.5 bg-[#212428] border-b border-b-[#181A1D]"
     >
       <Container>
-        <Flex className={"flex-col lg:justify-between mb-13.75 gap-x-30.75"}>
+        <Flex className={"flex-col lg:flex-row lg:justify-between mb-13.75 gap-x-30.75"}>
           <div className="text-center lg:text-left">
             <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
               CREATIVE SERVICE
@@ -25,7 +25,7 @@ const Services = () => {
               Services I Provide For Your Business.
             </h2>
           </div>
-          <div className="lg:w-[50%] text-center mt-4 lg:mt-0">
+          <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
               Create stunning interfaces, user flows, and responsive layouts
               with the latest frameworks ensuring clients receive high quality
