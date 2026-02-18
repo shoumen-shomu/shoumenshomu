@@ -18,7 +18,7 @@ const Skills = () => {
             </h2>
           </div>
           <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 lg:w-114.75 w-100">
               I utilize the latest technologies to build scalable web
               applications that exceed client expectations and drive real
               business growth effectively.

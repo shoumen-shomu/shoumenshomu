@@ -26,7 +26,7 @@ const Services = () => {
             </h2>
           </div>
           <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 lg:w-114.75 w-110">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 lg:w-114.75 w-100">
               Create stunning interfaces, user flows, and responsive layouts
               with the latest frameworks ensuring clients receive high quality
               solutions for their business.
@@ -39,7 +39,7 @@ const Services = () => {
             <h3 className="font-heebo font-bold text-[25px] text-white leading-[37.5px]">
               Web Development
             </h3>
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-72.5 py-3.75">
               I build fast, responsive, and secure websites tailored to meet
               your specific business needs perfectly.
             </p>
@@ -61,7 +61,7 @@ const Services = () => {
             <h3 className="font-heebo font-bold text-[25px] text-white leading-[37.5px]">
               Creative Design
             </h3>
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-72.5 py-3.75">
               I create stunning visuals and unique branding designs that will
               captivate your audience and customers.
             </p>
@@ -83,7 +83,7 @@ const Services = () => {
             <h3 className="font-heebo font-bold text-[25px] text-white leading-[37.5px]">
               Project Consultancy
             </h3>
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-72.5 py-3.75">
               I offer expert advice and strategic planning to ensure your
               projects succeed and deliver results.
             </p>
@@ -105,7 +105,7 @@ const Services = () => {
             <h3 className="font-heebo font-bold text-[25px] text-white leading-[37.5px]">
               24/7 Support
             </h3>
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-72.5 py-3.75">
               I provide round the clock assistance to resolve any technical
               issues you might face instantly.
             </p>
@@ -127,7 +127,7 @@ const Services = () => {
             <h3 className="font-heebo font-bold text-[25px] text-white leading-[37.5px]">
               Awesome Idea
             </h3>
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-72.5 py-3.75">
               I turn your raw ideas into live projects using smart code and
               design
             </p>
@@ -149,11 +149,11 @@ const Services = () => {
             <h3 className="font-heebo font-bold text-[25px] text-white leading-[37.5px]">
               Development Design
             </h3>
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-[290px] py-[15px]">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-[25.5px] w-72.5 py-3.75">
               I design intuitive user interfaces that look great and function
               seamlessly for the best experience.
             </p>
-            <div className="flex items-center gap-x-[11px]">
+            <div className="flex items-center gap-x-2.75">
               <div className="w-1.75 h-1.75 bg-[#A348CD]"></div>
               <a
                 href="https://github.com/shoumen-shomu"
