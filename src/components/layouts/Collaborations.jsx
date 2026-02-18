@@ -13,37 +13,37 @@ import coleight from '../../assets/p8.png'
 
 const Collaborations = () => {
   return (
-    <div className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
+    <div className="py-25 bg-[#212428] border-b border-b-[#181A1D] hidden lg:block">
       <Container>
         <div className="">
           <div className="border-b border-[#DDDDDD]">
             <Flex className={"justify-between "}>
-                <div className="py-[40px] px-[77px] border-r border-[#181A1D]">
+                <div className="py-10 px-19.25 border-r border-[#181A1D]">
                     <Images className={'logo-gray duration-500 bg-transparent '} imgSrc={colone}/>
                 </div>
-                <div className="py-[40px] px-[77px] border-r border-[#181A1D]">
+                <div className="py-10 px-19.25 border-r border-[#181A1D]">
                     <Images className={'logo-gray duration-500 bg-transparent'} imgSrc={coltwo}/>
                 </div>
-                <div className="py-[40px] px-[77px] border-r border-[#181A1D]">
+                <div className="py-10 px-19.25 border-r border-[#181A1D]">
                     <Images className={'logo-gray duration-500 bg-transparent'} imgSrc={colthree}/>
                 </div>
-                <div className="py-[40px] px-[77px]">
+                <div className="py-10 px-19.25">
                     <Images className={'logo-gray duration-500 bg-transparent'} imgSrc={colfour}/>
                 </div>
             </Flex>
           </div>
           <div className="">
             <Flex className={"justify-between "}>
-                <div className="py-[40px] px-[77px] border-r border-[#181A1D]">
+                <div className="py-10 px-19.25 border-r border-[#181A1D]">
                     <Images className={'logo-gray duration-500 bg-transparent '} imgSrc={colfive}/>
                 </div>
-                <div className="py-[40px] px-[77px] border-r border-[#181A1D]">
+                <div className="py-10 px-19.25 border-r border-[#181A1D]">
                     <Images className={'logo-gray duration-500 bg-transparent'} imgSrc={colsix}/>
                 </div>
-                <div className="py-[40px] px-[77px] border-r border-[#181A1D]">
+                <div className="py-10 px-19.25 border-r border-[#181A1D]">
                     <Images className={'logo-gray duration-500 bg-transparent'} imgSrc={colseven}/>
                 </div>
-                <div className="py-[40px] px-[77px]">
+                <div className="py-10 px-19.25">
                     <Images className={'logo-gray duration-500 bg-transparent'} imgSrc={coleight}/>
                 </div>
             </Flex>

@@ -8,8 +8,8 @@ const Skills = () => {
   return (
     <div className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
       <Container>
-        <Flex className={"justify-between mb-13.75 gap-x-30.75"}>
-          <div className="">
+        <Flex className={"flex-col lg:flex-row lg:justify-between mb-13.75 gap-x-30.75"}>
+          <div className="text-center lg:text-left">
             <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
               SKILLS
             </p>
@@ -17,7 +17,7 @@ const Skills = () => {
               My Technical Expertise & Skills.
             </h2>
           </div>
-          <div className="w-[50%]">
+          <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
             <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 w-[459px]">
               I utilize the latest technologies to build scalable web
               applications that exceed client expectations and drive real
@@ -25,16 +25,21 @@ const Skills = () => {
             </p>
           </div>
         </Flex>
-        <div className="flex gap-x-56.5">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-56.5">
           <div className="">
-            <SkillBar percentage={56} title={"Node.js"} />
+            <SkillBar percentage={80} title={"React.js"} />
+            <SkillBar percentage={80} title={"Next.js"} />
             <SkillBar percentage={75} title={"JavaScript"} />
-            <SkillBar percentage={90} title={"Web Design"} />
+            <SkillBar percentage={80} title={"Responsive Web Design"} />
+            
           </div>
           <div className="">
             <SkillBar percentage={100} title={"HTML"} />
             <SkillBar percentage={90} title={"CSS"} />
-            <SkillBar percentage={70} title={"React.js"} />
+            <SkillBar percentage={90} title={"Tailwind CSS"} />
+            <SkillBar percentage={80} title={"Shadcn"} />
+            
+            
           </div>
         </div>
       </Container>
