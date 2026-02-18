@@ -42,7 +42,7 @@ const Portfolio = () => {
             </h2>
           </div>
           <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 lg:w-114.75 w-100">
+            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 lg:w-114.75 w-95">
               Check out my recent projects where I turn unique ideas into
               reality with creative design and professional coding standards.
             </p>
