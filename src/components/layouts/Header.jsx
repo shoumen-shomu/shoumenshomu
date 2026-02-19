@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/shoumenlogo.png";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { MdOutlineFileDownload } from "react-icons/md";
@@ -17,7 +17,7 @@ const Header = () => {
         <div className="py-5 lg:px-0 ">
           <Flex className={"justify-between"}>
             {/* logo part start */}
-            <div className="lg:w-[30%] w-auto">
+            <div className="lg:w-[15%] w-[45%]">
               <Link>
                 <Images imgSrc={logo} />
               </Link>

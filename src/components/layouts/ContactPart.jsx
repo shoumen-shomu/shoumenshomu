@@ -36,15 +36,15 @@ const ContactPart = () => {
             <div className="left w-full lg:pw-0">
               <div className="lg:text-left text-center">
                 <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9 ">
-                CONTACT
-              </p>
-              <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
-                Let’s Start Working Together!
-              </h2>
-              <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 mt-4 lg:text-justify text-center lg:w-122.5">
-                Ready to launch your project? Reach out to me anytime to discuss
-                your ideas and turn them into reality instantly.
-              </p>
+                  CONTACT
+                </p>
+                <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
+                  Let’s Start Working Together!
+                </h2>
+                <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 mt-4 lg:text-justify text-center lg:w-122.5">
+                  Ready to launch your project? Reach out to me anytime to
+                  discuss your ideas and turn them into reality instantly.
+                </p>
               </div>
               <div className="mt-13.75">
                 <form ref={form} onSubmit={sendEmail}>
@@ -62,9 +62,8 @@ const ContactPart = () => {
                   </div>
                   <div className="mb-12">
                     <textarea
-                      className="mt-7 py-2.5 pl-3.75 bg-transparent border border-[#475569] rounded-lg text-[#b8a9a9] placeholder-[#b8a9a9]"
-                      rows="5"
-                      cols="51"
+                      className="mt-7 py-2.5 pl-3.75 bg-transparent border border-[#475569] rounded-lg text-[#b8a9a9] placeholder-[#b8a9a9] w-full lg:w-[567px]"
+                      rows="8"
                       name=""
                       placeholder="Message"
                     ></textarea>

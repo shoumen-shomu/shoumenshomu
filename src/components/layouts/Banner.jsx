@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import hero from "../../assets/hero.png";
+import hero from "../../assets/shoumenbannerimg.png";
 import Button from "../Button";
 import { FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
