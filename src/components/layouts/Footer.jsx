@@ -8,7 +8,7 @@ const Footer = () => {
     <div>
       <div className="bg-[url(/src/assets/footerbg.png)] bg-cover bg-center bg-no-repeat py-[50px]">
       <Container>
-        <Flex className={"lg:justify-between items-center flex-col"}>
+        <Flex className={"lg:justify-between items-center flex-col lg:flex-row"}>
           <div className="mb-4 lg:mb-0">
             <p className='font-rubik font-normal lg:text-base text-[14px] text-white leading-6'>All Rights Reserved By <span className='text-[#EE5F38]'>Shoumen Shomu</span> © 2026</p>
           </div>
