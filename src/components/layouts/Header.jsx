@@ -87,7 +87,7 @@ const Header = () => {
 
             {/* Menu Overly start */}
             <div
-              className={`lg:hidden fixed top-0 left-0 w-full h-100 bg-[#181A1D] flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${show ? "translate-y-19" : "-translate-y-full"} `}
+              className={`lg:hidden fixed top-0 left-0 w-full h-100 bg-[#181A1D] flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${show ? "translate-y-17" : "-translate-y-full"} `}
             >
               <HashLink onClick={() => setShow(false)} 
                 className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500"
