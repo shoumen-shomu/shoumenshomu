@@ -15,7 +15,7 @@ const ContactPart = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_78xroo9", "template_l4asv4e", form.current, {
+      .sendForm("service_78xroo9", "template_36wv0pf", form.current, {
         publicKey: "v0bYX7oFeLqMwuQ8M",
       })
       .then(
