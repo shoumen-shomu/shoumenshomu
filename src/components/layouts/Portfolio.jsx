@@ -10,6 +10,7 @@ import landingPage from "../../assets/Lime.png";
 import agencyOne from "../../assets/Digitalproducagency.png";
 import mixitup from "mixitup";
 import { FaGithub } from "react-icons/fa";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const Portfolio = () => {
   const containerRef = useRef(null);
@@ -87,10 +88,15 @@ const Portfolio = () => {
                 imgSrc={ecommerceOne}
               />
               <div className="w-full flex flex-col justify-center text-center items-center bg-[#EE5F38] absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
-                <a href="https://github.com/shoumen-shomu" target="_blank">
+                <div className="flex items-center gap-5">
+                  <a href="https://github.com/shoumen-shomu/Orebi" target="_blank">
                   <FaGithub className={" text-white text-[30px]"} />
                 </a>
-                <div className="mt-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <a href="https://orebi-blond.vercel.app/" target="_blank">
+                  <FaArrowUpRightFromSquare  className={" text-white text-[25px]"} />
+                </a>
+                </div>
+                <div className="mt-5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <p className="font-rubik font-bold text-[27px] text-[#E2E8F0] leading-7 pb-[10px]">
                     React
                   </p>
@@ -100,15 +106,20 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[370px] h-[310px] group relative mix showAll e-Commerce ">
+            <div className="w-92.5 h-77.5 group relative mix showAll e-Commerce ">
               <Images
                 className={"w-full h-full object-cover"}
                 imgSrc={ecommerceTwo}
               />
               <div className="w-full flex flex-col justify-center text-center items-center bg-[#EE5F38] absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
-                <a href="https://github.com/shoumen-shomu" target="_blank">
+                <div className="flex items-center gap-5">
+                  <a href="https://github.com/shoumen-shomu/UOMO" target="_blank">
                   <FaGithub className={" text-white text-[30px]"} />
                 </a>
+                <a href="https://shoumen-shomu.github.io/UOMO/" target="_blank">
+                  <FaArrowUpRightFromSquare  className={" text-white text-[25px]"} />
+                </a>
+                </div>
                 <div className="mt-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <p className="font-rubik font-bold text-[27px] text-[#E2E8F0] leading-7 pb-[10px]">
                     Tailwind CSS
@@ -119,15 +130,20 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[370px] h-[310px] group relative mix showAll portfolio ">
+            <div className="w-92.5 h-77.5 group relative mix showAll portfolio ">
               <Images
                 className={"w-full h-full object-cover"}
                 imgSrc={portfolioOne}
               />
               <div className="w-full flex flex-col justify-center text-center items-center bg-[#EE5F38] absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
-                <a href="https://github.com/shoumen-shomu" target="_blank">
+                <div className="flex items-center gap-5">
+                  <a href="https://github.com/shoumen-shomu/Hunt" target="_blank">
                   <FaGithub className={" text-white text-[30px]"} />
                 </a>
+                <a href="https://shoumen-shomu.github.io/Hunt/" target="_blank">
+                  <FaArrowUpRightFromSquare  className={" text-white text-[25px]"} />
+                </a>
+                </div>
                 <div className="mt-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <p className="font-rubik font-bold text-[27px] text-[#E2E8F0] leading-7 pb-[10px]">
                     Bootstrap
@@ -138,16 +154,21 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[370px] h-[310px] group relative mix showAll portfolio ">
+            <div className="w-92.5 h-77.5 group relative mix showAll portfolio ">
               <Images
                 className={"w-full h-full object-cover"}
                 imgSrc={portfolioTwo}
               />
               <div className="w-full flex flex-col justify-center text-center items-center bg-[#EE5F38] absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
-                <a href="https://github.com/shoumen-shomu" target="_blank">
+                <div className="flex items-center gap-5">
+                  <a href="https://github.com/shoumen-shomu/Hancok" target="_blank">
                   <FaGithub className={" text-white text-[30px]"} />
                 </a>
-                <div className="mt-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <a href="https://shoumen-shomu.github.io/Hancok/" target="_blank">
+                  <FaArrowUpRightFromSquare  className={" text-white text-[25px]"} />
+                </a>
+                </div>
+                <div className="mt-5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <p className="font-rubik font-bold text-[27px] text-[#E2E8F0] leading-7 pb-[10px]">
                     Bootstrap
                   </p>
@@ -157,15 +178,20 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[370px] h-[310px] group relative mix showAll landingPage ">
+            <div className="w-92.5 h-77.5 group relative mix showAll landingPage ">
               <Images
                 className={"w-full h-full object-cover"}
                 imgSrc={landingPage}
               />
               <div className="w-full flex flex-col justify-center text-center items-center bg-[#EE5F38] absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
-                <a href="https://github.com/shoumen-shomu" target="_blank">
+                <div className="flex items-center gap-5">
+                  <a href="https://github.com/shoumen-shomu/Lime" target="_blank">
                   <FaGithub className={" text-white text-[30px]"} />
                 </a>
+                <a href="https://lime-beige-three.vercel.app/" target="_blank">
+                  <FaArrowUpRightFromSquare  className={" text-white text-[25px]"} />
+                </a>
+                </div>
                 <div className="mt-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <p className="font-rubik font-bold text-[27px] text-[#E2E8F0] leading-7 pb-[10px]">
                     React
@@ -176,16 +202,21 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[370px] h-[310px] group relative mix showAll landingPage ">
+            <div className="w-92.5 h-77.5 group relative mix showAll landingPage ">
               <Images
                 className={"w-full h-full object-cover"}
                 imgSrc={agencyOne}
               />
               <div className="w-full flex flex-col justify-center text-center items-center bg-[#EE5F38] absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-90">
-                <a href="https://github.com/shoumen-shomu" target="_blank">
+                <div className="flex items-center gap-5">
+                  <a href="https://github.com/shoumen-shomu/Creative" target="_blank">
                   <FaGithub className={" text-white text-[30px]"} />
                 </a>
-                <div className="mt-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <a href="https://shoumen-shomu.github.io/Creative/" target="_blank">
+                  <FaArrowUpRightFromSquare  className={" text-white text-[25px]"} />
+                </a>
+                </div>
+                <div className="mt-5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <p className="font-rubik font-bold text-[27px] text-[#E2E8F0] leading-7 pb-[10px]">
                     TailwindCSS
                   </p>
