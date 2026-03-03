@@ -22,7 +22,7 @@ const Banner = () => {
 
             {/* Banner Content Start */}
 
-            <div className="lg:w-175.5 w-100 mt-10 lg:mt-0">
+            <div className="lg:w-175.5 w-full mt-10 lg:mt-0">
               <div className="text-center lg:text-left">
                 <p className="font-rubik font-light text-[24px] text-[#EE5F38] leading-9">
                   HELLO I'M
