@@ -7,7 +7,7 @@ const SkillBar = ({ title, percentage }) => {
       <h3 className="font-rubik font-medium text-[18px] text-white leading-7 mb-1 ">{title}</h3>
 
       {/* Main Progress Bar */}
-      <div className="relative lg:w-118 w-85 h-full py-0.75 pl-0.75 bg-slate-700 rounded-full">
+      <div className="relative lg:w-118 w-full h-full py-0.75 pl-0.75 bg-slate-700 rounded-full">
         
         {/* Color Fill */}
         <div

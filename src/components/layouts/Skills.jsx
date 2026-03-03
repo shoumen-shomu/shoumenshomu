@@ -34,7 +34,7 @@ const Skills = () => {
             
           </div>
           <div className="">
-            <SkillBar percentage={100} title={"HTML"} />
+            <SkillBar percentage={95} title={"HTML"} />
             <SkillBar percentage={90} title={"CSS"} />
             <SkillBar percentage={90} title={"Tailwind CSS"} />
             <SkillBar percentage={80} title={"Shadcn"} />
