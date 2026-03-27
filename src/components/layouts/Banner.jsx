@@ -11,10 +11,9 @@ import { HashLink } from "react-router-hash-link";
 const Banner = () => {
   return (
     <div className="">
-      <div className="bg-[#150a0a] lg:pt-50 pt-40 pb-16 ">
+      <div className="bg-[#150a0a] lg:pt-50 pt-40 pb-16">
         <Container>
-          <Flex className={"gap-x-25 flex-col lg:flex-row"}>
-           
+          <Flex className={"gap-x-25 flex-col lg:flex-row"}>        
              {/* Banner Image Start */}
             <div className="ml-4 lg:ml-0 lg:hidden">
               <Images className={"rounded-2xl"} imgSrc={hero} />
@@ -57,7 +56,7 @@ const Banner = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="text-[20px] text-[#EE5F38] w-10 h-10 border border-[#EE5F38] rounded-[50%] flex justify-center items-center hover:text-white hover:bg-[#EE5F38] duration-500">
+                      <div className="text-[20px] text-[#C1272D] w-10 h-10 border border-[#C1272D] rounded-[50%] flex justify-center items-center hover:text-[#D1D5DB] hover:bg-[#C1272D] duration-500">
                         <FaGithub />
                       </div>
                     </a>
@@ -66,7 +65,7 @@ const Banner = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="text-[20px] text-[#EE5F38] w-10 h-10 border border-[#EE5F38] rounded-[50%] flex justify-center items-center hover:text-white hover:bg-[#EE5F38] duration-500">
+                      <div className="text-[20px] text-[#C1272D] w-10 h-10 border border-[#C1272D] rounded-[50%] flex justify-center items-center hover:text-[#D1D5DB] hover:bg-[#C1272D] duration-500">
                         <FaFacebookF />
                       </div>
                     </a>
@@ -75,7 +74,7 @@ const Banner = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="text-[20px] text-[#EE5F38] w-10 h-10 border border-[#EE5F38] rounded-[50%] flex justify-center items-center hover:text-white hover:bg-[#EE5F38] duration-500">
+                      <div className="text-[20px] text-[#C1272D] w-10 h-10 border border-[#C1272D] rounded-[50%] flex justify-center items-center hover:text-[#D1D5DB] hover:bg-[#C1272D] duration-500">
                         <FaLinkedin />
                       </div>
                     </a>
@@ -84,7 +83,7 @@ const Banner = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <div className="text-[20px] text-[#EE5F38] w-10 h-10 border border-[#EE5F38] rounded-[50%] flex justify-center items-center hover:text-white hover:bg-[#EE5F38] duration-500">
+                      <div className="text-[20px] text-[#C1272D] w-10 h-10 border border-[#C1272D] rounded-[50%] flex justify-center items-center hover:text-[#D1D5DB] hover:bg-[#C1272D] duration-500">
                         <FaXTwitter />
                       </div>
                     </a>
