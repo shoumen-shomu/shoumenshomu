@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import hero from "../../assets/shoumenbannerimg.png";
+import hero from "../../assets/shoumen.jpg";
 import Button from "../Button";
 import { FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -10,21 +10,22 @@ import { HashLink } from "react-router-hash-link";
 
 const Banner = () => {
   return (
-    <div className="bg-[#181A1D]">
-      <div className="bg-[url(/src/assets/bannerBg.png)] bg-cover bg-center bg-no-repeat lg:pt-50 pt-20 pb-16">
+    <div className="">
+      <div className="bg-[#150a0a]  lg:pt-50 pt-20 pb-16">
         <Container>
           <Flex className={"gap-x-25 flex-col lg:flex-row"}>
-            {/* Banner Image Start */}
-            <div className="ml-4 lg:ml-0">
-              <Images imgSrc={hero} />
+           
+             {/* Banner Image Start */}
+            <div className="ml-4 lg:ml-0 lg:hidden">
+              <Images className={"rounded-2xl"} imgSrc={hero} />
             </div>
             {/* Banner Image End */}
 
             {/* Banner Content Start */}
 
-            <div className="lg:w-175.5 w-full mt-10 lg:mt-0">
+            <div className="lg:w-250 w-full mt-10 lg:mt-0">
               <div className="text-center lg:text-left">
-                <p className="font-rubik font-light text-[24px] text-[#EE5F38] leading-9">
+                <p className="font-rubik font-light text-[24px] text-[#C1272D] leading-9">
                   HELLO I'M
                 </p>
                 <h1 className="font-heebo font-bold text-[60px] text-white leading-22.5 ">
@@ -93,6 +94,11 @@ const Banner = () => {
               </div>
             </div>
             {/* Banner Content End */}
+             {/* Banner Image Start */}
+            <div className="ml-4 lg:ml-0 lg:block hidden">
+              <Images className={"rounded-2xl"} imgSrc={hero} />
+            </div>
+            {/* Banner Image End */}
           </Flex>
         </Container>
       </div>

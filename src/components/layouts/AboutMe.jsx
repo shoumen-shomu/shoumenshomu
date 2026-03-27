@@ -8,12 +8,12 @@ import { HashLink } from "react-router-hash-link";
 
 const AboutMe = () => {
   return (
-    <div id="about" className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
+    <div id="about" className="py-25 bg-[#150a0a] border-b border-b-[#181A1D]">
       <Container>
         <Flex className={"gap-x-10 lg:flex-row flex-col"}>
           <div className="lg:w-[55%]">
             <div className="mb-7.5 text-center lg:text-left">
-              <p className="font-rubik font-medium text-[24px]  text-[#EE5F38] leading-9">
+              <p className="font-rubik font-medium text-[24px]  text-[#C1272D] leading-9">
                 ABOUT ME
               </p>
               <h2 className="font-heebo font-bold text-[48px]  text-white leading-14.5 ">

@@ -6,6 +6,8 @@
 @theme {
   --font-heebo: "Heebo", sans-serif;
   --font-rubik: "Rubik", sans-serif;
+  --color-primary: #C1272D;
+  --color-secondary: #D1D5DB
 }
 
 @theme inline {
