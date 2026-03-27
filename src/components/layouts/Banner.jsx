@@ -24,7 +24,7 @@ const Banner = () => {
 
             <div className="lg:w-250 w-full mt-10 lg:mt-0">
               <div className="text-center lg:text-left">
-                <p className="font-rubik font-light text-[24px] text-[#C1272D] leading-9">
+                <p className="font-rubik font-light text-[24px] text-[#C1272D] leading-9 italic">
                   HELLO I'M
                 </p>
                 <h1 className="font-heebo font-bold text-[60px] text-[#D1D5DB] leading-22.5 ">
