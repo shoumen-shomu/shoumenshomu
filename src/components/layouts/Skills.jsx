@@ -10,15 +10,15 @@ const Skills = () => {
       <Container>
         <Flex className={"flex-col lg:flex-row lg:justify-between mb-13.75 gap-x-30.75"}>
           <div className="text-center lg:text-left">
-            <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
+            <p className="font-rubik font-medium text-[24px] text-[#C1272D] leading-9">
               SKILLS
             </p>
-            <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
+            <h2 className="font-heebo font-bold text-[48px] text-[#D1D5DB] leading-14.5">
               My Technical Expertise & Skills.
             </h2>
           </div>
           <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
-            <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 lg:w-114.75 w-95">
+            <p className="font-rubik font-normal text-[17px] text-[#D1D5DB] leading-7 lg:w-114.75 w-95">
               I utilize the latest technologies to build scalable web
               applications that exceed client expectations and drive real
               business growth effectively.
@@ -31,13 +31,23 @@ const Skills = () => {
             <SkillBar percentage={80} title={"Next.js"} />
             <SkillBar percentage={75} title={"JavaScript"} />
             <SkillBar percentage={80} title={"Responsive Web Design"} />
+            <SkillBar percentage={80} title={"Redux"} />
+            <SkillBar percentage={60} title={"Zustand"} />
+            <SkillBar percentage={85} title={"Firebase"} />
+            <SkillBar percentage={75} title={"Postman"} />
+            <SkillBar percentage={70} title={"NPM"} />
             
           </div>
           <div className="">
             <SkillBar percentage={95} title={"HTML"} />
             <SkillBar percentage={90} title={"CSS"} />
             <SkillBar percentage={90} title={"Tailwind CSS"} />
+            <SkillBar percentage={90} title={"Bootstrap"} />
             <SkillBar percentage={80} title={"Shadcn"} />
+            <SkillBar percentage={70} title={"REST APIs"} />
+            <SkillBar percentage={85} title={"Git"} />
+            <SkillBar percentage={90} title={"GitHub"} />
+            <SkillBar percentage={85} title={"Vercel"} />
             
             
           </div>

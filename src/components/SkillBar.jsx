@@ -11,7 +11,7 @@ const SkillBar = ({ title, percentage }) => {
         
         {/* Color Fill */}
         <div
-          className="h-1.5 bg-[#FF5538] rounded-full"
+          className="h-1.5 bg-[#C1272D] rounded-full"
           style={{ width: `${percentage}%` }}
         ></div>
 
@@ -21,11 +21,11 @@ const SkillBar = ({ title, percentage }) => {
           style={{ left: `${percentage}%`, transform: "translateX(-50%)" }}
         >
           {/* Bubble Body */}
-          <div className="relative bg-[#FF5538] font-rubik font-medium text-[12px] text-white leading-4 py-1 px-2 rounded mb-1">
+          <div className="relative bg-[#C1272D] font-rubik font-medium text-[12px] text-white leading-4 py-1 px-2 rounded mb-1">
             {percentage}%
             
             {/*(Arrow) */}
-            <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-[#FF5538]"></div>
+            <div className="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-[#C1272D]"></div>
           </div>
         </div>
       </div>
