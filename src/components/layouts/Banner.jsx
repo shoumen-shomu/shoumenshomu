@@ -11,7 +11,7 @@ import { HashLink } from "react-router-hash-link";
 const Banner = () => {
   return (
     <div className="">
-      <div className="bg-[#150a0a]  lg:pt-50 pt-40 pb-16 ">
+      <div className="bg-[#150a0a] lg:pt-50 pt-40 pb-16 ">
         <Container>
           <Flex className={"gap-x-25 flex-col lg:flex-row"}>
            
@@ -28,13 +28,13 @@ const Banner = () => {
                 <p className="font-rubik font-light text-[24px] text-[#C1272D] leading-9">
                   HELLO I'M
                 </p>
-                <h1 className="font-heebo font-bold text-[60px] text-white leading-22.5 ">
+                <h1 className="font-heebo font-bold text-[60px] text-[#D1D5DB] leading-22.5 ">
                   Shoumen Shomu!
                 </h1>
-                <h2 className="font-heebo font-normal text-[32px] text-white lg:leading-12">
+                <h2 className="font-heebo font-normal text-[32px] text-[#D1D5DB] lg:leading-12">
                   Front-End Developer
                 </h2>
-                <p className="font-rubik font-normal lg:text-[20px] text-[20px] text-[#E2E8F0] leading-7.5  max-w-105 pt-4.5 pb-7.5">
+                <p className="font-rubik font-normal lg:text-[20px] text-[20px] text-[#D1D5DB] leading-7.5  max-w-105 pt-4.5 pb-7.5">
                   Passionate about crafting pixel-perfect, responsive user
                   interfaces using React, JavaScript, and Tailwind CSS. I turn
                   creative designs into interactive web experiences.
@@ -47,7 +47,7 @@ const Banner = () => {
                   </HashLink>
                 </div>
                 <div className="lg:flex items-center gap-x-3.75 mt-4.5 lg:mt-0">
-                  <p className="font-heebo font-semibold text-[22px] text-white leading-8.25 text-center">
+                  <p className="font-heebo font-semibold text-[22px] text-[#D1D5DB] leading-8.25 text-center">
                     Follow Me:
                   </p>
                   {/* Social Links Start */}

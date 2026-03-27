@@ -16,10 +16,10 @@ const AboutMe = () => {
               <p className="font-rubik font-medium text-[24px]  text-[#C1272D] leading-9">
                 ABOUT ME
               </p>
-              <h2 className="font-heebo font-bold text-[48px]  text-white leading-14.5 ">
+              <h2 className="font-heebo font-bold text-[48px]  text-[#D1D5DB] leading-14.5 ">
                 I build modern sites with leading React & Web Tech.
               </h2>
-              <p className="font-rubik font-normal text-[17px]  text-[#E2E8F0] leading-7 mt-4 lg:text-justify">
+              <p className="font-rubik font-normal text-[17px]  text-[#D1D5DB] leading-7 mt-4 lg:text-justify">
                 I am a professional Front-End Developer with a passion for
                 creating intuitive and dynamic user experiences. I specialize in
                 turning complex problems into simple, beautiful, and intuitive
