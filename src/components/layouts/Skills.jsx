@@ -6,7 +6,7 @@ import SkillBar from "../SkillBar";
 
 const Skills = () => {
   return (
-    <div className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
+    <div className="py-25 bg-[#150a0a] border-b border-b-[#181A1D]">
       <Container>
         <Flex className={"flex-col lg:flex-row lg:justify-between mb-13.75 gap-x-30.75"}>
           <div className="text-center lg:text-left">

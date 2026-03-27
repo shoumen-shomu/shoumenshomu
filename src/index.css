@@ -4,9 +4,12 @@
 }
 
 .logo-gray:hover {
-  opacity: 5;
-  filter: brightness(0) saturate(100%) invert(47%) sepia(82%) saturate(1837%) hue-rotate(329deg) brightness(96%) contrast(92%);
-  transform: .5s
+  opacity: 1;
+  filter: brightness(0) saturate(100%) invert(16%) sepia(85%) saturate(3000%) hue-rotate(345deg) brightness(90%) contrast(95%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.logo-gray {
+  transition: filter 0.3s ease, opacity 0.3s ease;
 }
 
 .swiper-pagination-bullet {
