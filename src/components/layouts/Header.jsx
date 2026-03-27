@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import logo from "../../assets/shoumenlogo.png";
+import logo from "../../assets/finalLogo.png";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { MdOutlineFileDownload } from "react-icons/md";
@@ -78,19 +78,19 @@ const Header = () => {
               onClick={() => setShow(!show)}
             >
               {show ? (
-                <RxCross2 className="text-white text-[30px]" />
+                <RxCross2 className="text-[#D1D5DB] text-[30px]" />
               ) : (
-                <FaBars className="text-white text-[30px]" />
+                <FaBars className="text-[#D1D5DB] text-[30px]" />
               )}
             </div>
             {/* Mobile Part menu End */}
 
             {/* Menu Overly start */}
             <div
-              className={`lg:hidden fixed top-0 left-0 w-full h-100 bg-[#181A1D] flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${show ? "translate-y-17" : "-translate-y-full"} `}
+              className={`lg:hidden fixed top-0 left-0 w-full h-100 bg-[#1a0000]/90 flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${show ? "translate-y-17" : "-translate-y-full"} `}
             >
               <HashLink onClick={() => setShow(false)} 
-                className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#home"
               >
@@ -98,7 +98,7 @@ const Header = () => {
               </HashLink>
 
               <HashLink onClick={() => setShow(false)}
-                className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#about"
               >
@@ -106,7 +106,7 @@ const Header = () => {
               </HashLink>
 
               <HashLink onClick={() => setShow(false)}
-                className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#services"
               >
@@ -114,7 +114,7 @@ const Header = () => {
               </HashLink>
 
               <HashLink onClick={() => setShow(false)}
-                className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#portfolio"
               >
@@ -122,7 +122,7 @@ const Header = () => {
               </HashLink>
 
               <HashLink onClick={() => setShow(false)}
-                className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#contact"
               >

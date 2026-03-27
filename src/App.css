@@ -1,7 +1,4 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
 
 @theme {
   --font-heebo: "Heebo", sans-serif;
@@ -9,6 +6,11 @@
   --color-primary: #C1272D;
   --color-secondary: #D1D5DB
 }
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
