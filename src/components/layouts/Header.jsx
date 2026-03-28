@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import logo from "../../assets/shoumenLogo.png";
+import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { MdOutlineFileDownload } from "react-icons/md";
