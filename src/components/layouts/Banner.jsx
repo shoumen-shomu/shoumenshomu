@@ -11,7 +11,7 @@ import { HashLink } from "react-router-hash-link";
 const Banner = () => {
   return (
     <div className="">
-      <div className="bg-[#050d0d] lg:pt-50 pt-40 pb-16 border-b border-b-[#181A1D]">
+      <div className="bg-[#050d0d] lg:pt-50 pt-40 pb-16 border-b border-b-[#C1272D]/20">
         <Container>
           <Flex className={"gap-x-25 flex-col lg:flex-row"}>        
              {/* Banner Image Start */}
