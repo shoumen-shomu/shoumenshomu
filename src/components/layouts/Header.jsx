@@ -62,7 +62,7 @@ const Header = () => {
             {/* download part start */}
             <div className="hidden lg:block">
               <div className="flex items-center gap-x-2.5 py-2 px-4.5 rounded-[32px] bg-[#C1272D] text-[#D1D5DB] border border-[#C1272D] hover:bg-transparent duration-500 cursor-pointer">
-                <div className="flex py-1.75 px-1.75 items-center justify-center rounded-full bg-[#D1D5DB] text-[#C1272D]">
+                <div className="flex py-1.75 px-1.75 items-center justify-center rounded-full bg-[#ffffff] text-[#C1272D]">
                   <MdOutlineFileDownload className="text-3xl" />
                 </div>
                 <p className="font-rubik font-medium text-[18px] text-[#ffffff] leading-6.75">

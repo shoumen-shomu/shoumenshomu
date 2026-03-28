@@ -6,19 +6,19 @@ import SkillBar from "../SkillBar";
 
 const Skills = () => {
   return (
-    <div className="py-25 bg-[#150a0a] border-b border-b-[#181A1D]">
+    <div className="py-25 bg-[#050d0d] border-b border-b-[#C1272D]/20">
       <Container>
         <Flex className={"flex-col lg:flex-row lg:justify-between mb-13.75 gap-x-30.75"}>
           <div className="text-center lg:text-left">
             <p className="font-rubik font-medium text-[24px] text-[#C1272D] leading-9">
               SKILLS
             </p>
-            <h2 className="font-heebo font-bold text-[48px] text-[#D1D5DB] leading-14.5">
+            <h2 className="font-heebo font-bold text-[48px] text-[#FFFFFF] leading-14.5">
               My Technical Expertise & Skills.
             </h2>
           </div>
           <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
-            <p className="font-rubik font-normal text-[17px] text-[#D1D5DB] leading-7 lg:w-114.75 w-95">
+            <p className="font-rubik font-normal text-[17px] text-[#CBD5E1] leading-7 lg:w-114.75 w-95">
               I utilize the latest technologies to build scalable web
               applications that exceed client expectations and drive real
               business growth effectively.

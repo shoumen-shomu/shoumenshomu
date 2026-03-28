@@ -29,19 +29,19 @@ const ContactPart = () => {
   };
 
   return (
-    <div id="contact" className="bg-[#212428] border-b border-b-[#181A1D]">
-      <div className="bg-[url(/src/assets/contact.png)] bg-cover bg-center bg-no-repeat pt-25 pb-7.5">
+    <div id="contact" className="bg-[#050d0d] border-b border-b-[#C1272D]/20 pt-25 pb-7.5">
+      {/* <div className="bg-[url(/src/assets/contact.png)] bg-cover bg-center bg-no-repeat pt-25 pb-7.5"> */}
         <Container>
           <Flex className={"lg:gap-20 lg:flex-row flex-col"}>
             <div className="left w-full lg:pw-0">
               <div className="lg:text-left text-center">
-                <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9 ">
+                <p className="font-rubik font-medium text-[24px] text-[#C1272D] leading-9 ">
                   CONTACT
                 </p>
                 <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
                   Let’s Start Working Together!
                 </h2>
-                <p className="font-rubik font-normal text-[17px] text-[#E2E8F0] leading-7 mt-4 lg:text-justify text-center lg:w-122.5">
+                <p className="font-rubik font-normal text-[17px] text-[#CBD5E1] leading-7 mt-4 lg:text-justify text-center lg:w-122.5">
                   Ready to launch your project? Reach out to me anytime to
                   discuss your ideas and turn them into reality instantly.
                 </p>
@@ -74,7 +74,7 @@ const ContactPart = () => {
             </div>
             <div className="right space-y-12.5 pt-25">
               <div className="flex items-center gap-6">
-                <div className="h-17.5 w-17.5 bg-[#EE5F38] rounded-[50%] flex justify-center items-center">
+                <div className="h-17.5 w-17.5 bg-[#C1272D] rounded-[50%] flex justify-center items-center">
                   <FaPhoneAlt className="text-[25px] text-white" />
                 </div>
                 <div className="">
@@ -87,7 +87,7 @@ const ContactPart = () => {
                 </div>
               </div>
               <div className="flex items-center gap-6">
-                <div className="h-17.5 w-17.5 bg-[#EE5F38] rounded-[50%] flex justify-center items-center">
+                <div className="h-17.5 w-17.5 bg-[#C1272D] rounded-[50%] flex justify-center items-center">
                   <MdOutlineEmail className="text-[25px] text-white" />
                 </div>
                 <div className="">
@@ -100,7 +100,7 @@ const ContactPart = () => {
                 </div>
               </div>
               <div className="flex items-center gap-6">
-                <div className="h-17.5 w-17.5 bg-[#EE5F38] rounded-[50%] flex justify-center items-center">
+                <div className="h-17.5 w-17.5 bg-[#C1272D] rounded-[50%] flex justify-center items-center">
                   <FaMapMarkerAlt className="text-[25px] text-white" />
                 </div>
                 <div className="">
@@ -124,7 +124,7 @@ const ContactPart = () => {
             </map>
           </div>
         </Container>
-      </div>
+      {/* </div> */}
     </div>
   );
 };

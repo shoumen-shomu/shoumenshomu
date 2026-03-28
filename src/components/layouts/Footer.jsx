@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div>
-      <div className="bg-[url(/src/assets/footerbg.png)] bg-cover bg-center bg-no-repeat py-[50px]">
+      <div className="bg-[#050d0d] py-12.5">
       <Container>
         <Flex className={"lg:justify-between items-center flex-col lg:flex-row"}>
           <div className="mb-4 lg:mb-0">

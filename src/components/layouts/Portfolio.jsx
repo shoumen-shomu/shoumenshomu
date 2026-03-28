@@ -30,7 +30,7 @@ const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className="py-25 bg-[#150a0a] border-b border-b-[#181A1D]"
+      className="py-25 bg-[#050d0d] border-b border-b-[#C1272D]/20"
     >
       <Container>
         <Flex
@@ -42,12 +42,12 @@ const Portfolio = () => {
             <p className="font-rubik font-medium text-[24px] text-[#C1272D] leading-9">
               PORTFOLIO
             </p>
-            <h2 className="font-heebo font-bold text-[48px] text-[#D1D5DB] leading-14.5">
+            <h2 className="font-heebo font-bold text-[48px] text-[#FFFFFF] leading-14.5">
               I Never Compromise On Quality.
             </h2>
           </div>
           <div className="lg:w-[50%] text-center lg:text-left mt-4 lg:mt-0">
-            <p className="font-rubik font-normal text-[17px] text-[#D1D5DB] leading-7 lg:w-114.75 w-95">
+            <p className="font-rubik font-normal text-[17px] text-[#CBD5E1] leading-7 lg:w-114.75 w-95">
               Check out my recent projects where I turn unique ideas into
               reality with creative design and professional coding standards.
             </p>
@@ -57,26 +57,26 @@ const Portfolio = () => {
           <Flex className={"justify-center gap-x-6.25"}>
             <p
               data-filter=".showAll"
-              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#D1D5DB] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
             >
               Show All
             </p>
             <p
               data-filter=".e-Commerce"
-              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#D1D5DB] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
             >
               e-Commerce
             </p>
             <p
               data-filter=".portfolio"
               C1272D
-              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#D1D5DB] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
             >
               Portfolio
             </p>
             <p
               data-filter=".landingPage"
-              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#D1D5DB] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
             >
               Landing Page
             </p>
@@ -138,7 +138,7 @@ const Portfolio = () => {
                     />
                   </a>
                 </div>
-                <div className="mt-[20px] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <div className="mt-5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                   <p className="font-rubik font-bold text-[27px] text-[#E2E8F0] leading-7 pb-[10px]">
                     Tailwind CSS
                   </p>

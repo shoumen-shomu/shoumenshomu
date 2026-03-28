@@ -14,11 +14,11 @@ import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 
 const Testimonials = () => {
   return (
-    <div className="py-25 bg-[#212428] border-b border-b-[#181A1D]">
+    <div className="py-25 bg-[#050d0d] border-b border-b-[#C1272D]/20">
       <Container>
         <div className="relative">
           <div className="text-center">
-            <p className="font-rubik font-medium text-[24px] text-[#EE5F38] leading-9">
+            <p className="font-rubik font-medium text-[24px] text-[#C1272D] leading-9">
               TESTIMONIALS
             </p>
             <h2 className="font-heebo font-bold text-[48px] text-white leading-14.5">
