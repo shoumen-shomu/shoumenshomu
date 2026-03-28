@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "../Container";
 import Flex from "../Flex";
 import Images from "../Images";
-import logo from "../../assets/finalLogo.png";
+import logo from "../../assets/shoumenLogo.png";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { MdOutlineFileDownload } from "react-icons/md";
@@ -12,7 +12,7 @@ import { RxCross2 } from "react-icons/rx";
 const Header = () => {
   const [show, setShow] = useState(false);
   return (
-    <div className="bg-[#1a0000]/60 backdrop-blur-md fixed w-full top-0 left-0 z-50 ">
+    <div className="bg-[#050d0d]/60 backdrop-blur-md fixed w-full top-0 left-0 z-50 ">
       <Container>
         <div className="py-5 lg:px-0 ">
           <Flex className={"justify-between"}>
@@ -27,30 +27,30 @@ const Header = () => {
             <div className="hidden lg:block">
               <ul className="flex gap-x-11.25">
                 <Link to={"/"}>
-                  <li className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#C1272D] duration-500">
+                  <li className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#C1272D] duration-500">
                     Home
                   </li>
                 </Link>
 
-                <li className="font-rubik font-medium text-[20px] text-[#E2E8F0] leading-7.5 hover:text-[#C1272D] duration-500">
+                <li className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#C1272D] duration-500">
                   <HashLink smooth to="#about">
                     About
                   </HashLink>
                 </li>
 
-                <li className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#C1272D] duration-500">
+                <li className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#C1272D] duration-500">
                   <HashLink smooth to="#services">
                     Services
                   </HashLink>
                 </li>
 
-                <li className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#C1272D] duration-500">
+                <li className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#C1272D] duration-500">
                   <HashLink smooth to="#portfolio">
                     Portfolio
                   </HashLink>
                 </li>
 
-                <li className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#C1272D] duration-500">
+                <li className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#C1272D] duration-500">
                   <HashLink smooth to="#contact">
                     Contact
                   </HashLink>
@@ -65,7 +65,7 @@ const Header = () => {
                 <div className="flex py-1.75 px-1.75 items-center justify-center rounded-full bg-[#D1D5DB] text-[#C1272D]">
                   <MdOutlineFileDownload className="text-3xl" />
                 </div>
-                <p className="font-rubik font-medium text-[18px] text-[#D1D5DB] leading-6.75">
+                <p className="font-rubik font-medium text-[18px] text-[#ffffff] leading-6.75">
                   Download CV
                 </p>
               </div>
@@ -87,10 +87,10 @@ const Header = () => {
 
             {/* Menu Overly start */}
             <div
-              className={`lg:hidden fixed top-0 left-0 w-full h-100 bg-[#1a0000]/90 flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${show ? "translate-y-17" : "-translate-y-full"} `}
+              className={`lg:hidden fixed top-0 left-0 w-full h-100 bg-[#050d0d]/90 flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${show ? "translate-y-17" : "-translate-y-full"} `}
             >
               <HashLink onClick={() => setShow(false)} 
-                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#home"
               >
@@ -98,7 +98,7 @@ const Header = () => {
               </HashLink>
 
               <HashLink onClick={() => setShow(false)}
-                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#about"
               >
@@ -106,7 +106,7 @@ const Header = () => {
               </HashLink>
 
               <HashLink onClick={() => setShow(false)}
-                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#services"
               >
@@ -114,7 +114,7 @@ const Header = () => {
               </HashLink>
 
               <HashLink onClick={() => setShow(false)}
-                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#portfolio"
               >
@@ -122,7 +122,7 @@ const Header = () => {
               </HashLink>
 
               <HashLink onClick={() => setShow(false)}
-                className="font-rubik font-medium text-[20px] text-[#D1D5DB] leading-7.5 hover:text-[#EE5F38] duration-500"
+                className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#contact"
               >
