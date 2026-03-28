@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../Container";
 import Flex from "../Flex";
-import { FaRegCircleDot } from "react-icons/fa6";
 import Button from "../Button";
 import InfoItem from "../InfoItem";
 import { HashLink } from "react-router-hash-link";
