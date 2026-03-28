@@ -16,10 +16,10 @@ const AboutMe = () => {
               <p className="font-rubik font-medium text-[24px]  text-[#C1272D] leading-9">
                 ABOUT ME
               </p>
-              <h2 className="font-heebo font-bold text-[48px]  text-[#D1D5DB] leading-14.5 ">
+              <h2 className="font-heebo font-bold text-[48px]  text-[#FFFFFF] leading-14.5 ">
                 I build modern sites with leading React & Web Tech.
               </h2>
-              <p className="font-rubik font-normal text-[17px]  text-[#D1D5DB] leading-7 mt-4 lg:text-justify">
+              <p className="font-rubik font-normal text-[17px]  text-[#CBD5E1] leading-7 mt-4 lg:text-justify">
                 I am a professional Front-End Developer with a passion for
                 creating intuitive and dynamic user experiences. I specialize in
                 turning complex problems into simple, beautiful, and intuitive
@@ -34,8 +34,8 @@ const AboutMe = () => {
               </HashLink>
             </div>
           </div>
-          <div className="bg-[#150a0a] lg:py-8 lg:px-8 py-8 px-5 rounded-2xl border border-[#C1272D]/30 lg:w-[45%] transition-all duration-300 shadow-[0_0_20px_rgba(193,39,45,0.1)] overflow-hidden group hover:-translate-y-2">
-            <h3 className="font-rubik font-medium text-[24px] text-[#D1D5DB] leading-9 mb-6 border-l-4 border-[#C1272D] pl-4 group-hover:text-[#C1272D] transition-colors duration-300">
+          <div className="bg-[#050d0d] lg:py-8 lg:px-8 py-8 px-5 rounded-2xl border border-[#C1272D]/30 lg:w-[45%] transition-all duration-300 shadow-[0_0_20px_rgba(193,39,45,0.1)] overflow-hidden group hover:-translate-y-2">
+            <h3 className="font-rubik font-medium text-[24px] text-[#FFFFFF] leading-9 mb-6 border-l-4 border-[#C1272D] pl-4 group-hover:text-[#C1272D] transition-colors duration-300">
               Personal Infos
             </h3>
             <div className="grid grid-cols-2 gap-y-6 lg:gap-x-4">
