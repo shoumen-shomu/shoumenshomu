@@ -66,7 +66,7 @@ const Header = () => {
                   <MdOutlineFileDownload className="text-3xl" />
                 </div>
                 <p className="font-rubik font-medium text-[18px] text-[#ffffff] leading-6.75">
-                  Download CV
+                  Resume
                 </p>
               </div>
             </div>

@@ -14,6 +14,7 @@ const Services = () => {
     <div
       id="services"
       className="py-22.5 bg-[#050d0d] border-b border-b-[#C1272D]/20"
+      
     >
       <Container>
         <Flex

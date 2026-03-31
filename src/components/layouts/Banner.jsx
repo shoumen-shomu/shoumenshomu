@@ -40,11 +40,7 @@ const Banner = () => {
                 </p>
               </div>
               <div className="max-w-132.5 lg:flex items-center gap-x-4.5">
-                <div className="text-center lg:text-left">
-                  <HashLink smooth to="#about">
-                    <Button className={"inline-block"} btnText={"About Me"} />
-                  </HashLink>
-                </div>
+        
                 <div className="lg:flex items-center gap-x-3.75 mt-4.5 lg:mt-0">
                   <p className="font-heebo font-semibold text-[22px] text-[#FFFFFF] leading-8.25 text-center">
                     Follow Me:
