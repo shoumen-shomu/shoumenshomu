@@ -60,16 +60,23 @@ const Header = () => {
             {/* menu part End */}
 
             {/* download part start */}
-            <div className="hidden lg:block">
-              <div className="flex items-center gap-x-2.5 py-2 px-4.5 rounded-[32px] bg-[#C1272D] text-[#D1D5DB] border border-[#C1272D] hover:bg-transparent duration-500 cursor-pointer">
-                <div className="flex py-1.75 px-1.75 items-center justify-center rounded-full bg-[#ffffff] text-[#C1272D]">
-                  <MdOutlineFileDownload className="text-3xl" />
+            <a
+              href="/resume.pdf"
+              download="Shoumen_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="hidden lg:block">
+                <div className="flex items-center gap-x-2.5 py-2 px-4.5 rounded-[32px] bg-[#C1272D] text-[#D1D5DB] border border-[#C1272D] hover:bg-transparent duration-500 cursor-pointer">
+                  <div className="flex py-1.75 px-1.75 items-center justify-center rounded-full bg-[#ffffff] text-[#C1272D]">
+                    <MdOutlineFileDownload className="text-3xl" />
+                  </div>
+                  <p className="font-rubik font-medium text-[18px] text-[#ffffff] leading-6.75">
+                    Resume
+                  </p>
                 </div>
-                <p className="font-rubik font-medium text-[18px] text-[#ffffff] leading-6.75">
-                  Resume
-                </p>
               </div>
-            </div>
+            </a>
             {/* download part End */}
 
             {/* Mobile Part menu start */}
@@ -89,7 +96,8 @@ const Header = () => {
             <div
               className={`lg:hidden fixed top-0 left-0 w-full h-100 bg-[#050d0d]/90 flex flex-col items-center justify-center gap-y-8 transition-all duration-500 ${show ? "translate-y-17" : "-translate-y-full"} `}
             >
-              <HashLink onClick={() => setShow(false)} 
+              <HashLink
+                onClick={() => setShow(false)}
                 className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#home"
@@ -97,7 +105,8 @@ const Header = () => {
                 Home
               </HashLink>
 
-              <HashLink onClick={() => setShow(false)}
+              <HashLink
+                onClick={() => setShow(false)}
                 className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#about"
@@ -105,7 +114,8 @@ const Header = () => {
                 About
               </HashLink>
 
-              <HashLink onClick={() => setShow(false)}
+              <HashLink
+                onClick={() => setShow(false)}
                 className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#services"
@@ -113,7 +123,8 @@ const Header = () => {
                 Services
               </HashLink>
 
-              <HashLink onClick={() => setShow(false)}
+              <HashLink
+                onClick={() => setShow(false)}
                 className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#portfolio"
@@ -121,7 +132,8 @@ const Header = () => {
                 Portfolio
               </HashLink>
 
-              <HashLink onClick={() => setShow(false)}
+              <HashLink
+                onClick={() => setShow(false)}
                 className="font-rubik font-medium text-[20px] text-[#ffffff] leading-7.5 hover:text-[#EE5F38] duration-500"
                 smooth
                 to="#contact"

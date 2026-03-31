@@ -50,19 +50,19 @@ const Skills = () => {
               </div>
             </div>
             <div className="flex flex-wrap gap-2">
-              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->00">
+              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->300">
                 HTML
               </span>
-              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->00">
+              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->300">
                 CSS
               </span>
-              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->00">
+              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->300">
                 JavaScript
               </span>
-              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->00">
+              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->300">
                 React.js
               </span>
-              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->00">
+              <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->300">
                 Next.js
               </span>
               <span className="text-[11px] px-3 py-1.5 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700 hover:text-white hover:bg-red-600/10 hover:border-red-600/40 transition-all duration->00">

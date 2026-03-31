@@ -13,7 +13,7 @@ import coleight from '../../assets/p8.png'
 
 const Collaborations = () => {
   return (
-    <div className="py-25 bg-[#050d0d] border-b border-b-[#C1272D]/20 hidden lg:block">
+    <div className="py-25 bg-[#050d0d] border-b border-b-[#C1272D]/20 hidden">
       <Container>
         <div className="">
           <div className="border-b border-[#DDDDDD]">
