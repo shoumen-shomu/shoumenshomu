@@ -57,26 +57,26 @@ const Portfolio = () => {
           <Flex className={"justify-center gap-x-6.25"}>
             <p
               data-filter=".showAll"
-              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[12px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
             >
               Show All
             </p>
             <p
               data-filter=".e-Commerce"
-              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[12px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
             >
               e-Commerce
             </p>
             <p
               data-filter=".portfolio"
               C1272D
-              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[12px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
             >
               Portfolio
             </p>
             <p
               data-filter=".landingPage"
-              className="font-rubik font-medium lg:text-[18px] text-[13px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
+              className="font-rubik font-medium lg:text-[18px] text-[12px] text-[#FFFFFF] leading-6.75 hover:text-[#C1272D] duration-500 cursor-pointer"
             >
               Landing Page
             </p>
